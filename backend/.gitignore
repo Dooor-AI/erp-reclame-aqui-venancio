@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+.env
+*.db
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+*.db-journal
+.vscode/
+.idea/
+migrations/versions/*.py
+!migrations/versions/__init__.py

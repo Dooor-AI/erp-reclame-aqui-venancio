@@ -1,0 +1,517 @@
+================================================================================
+TESTE DO SISTEMA DE GERAÇÃO DE RESPOSTAS - CHAT C
+================================================================================
+
+
+================================================================================
+RECLAMAÇÃO 1/15
+================================================================================
+Título: Produto com defeito
+Cliente: João Silva
+Categoria: produto
+Sentimento: Muito Negativo
+Urgência: 9.0/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá João Silva,
+
+Sentimos muito pelo problema que você enfrentou com geladeira. Sua satisfação é muito importante para nós.
+
+Já identificamos o ocorrido e estamos tomando as medidas necessárias para que isso não se repita.
+
+Como forma de desculpas, gostaríamos de oferecer um cupom de 20% de desconto para sua próxima compra: VEN5XK80K0I
+
+Estamos à disposição para qualquer dúvida.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VEN5XK80K0I
+Desconto: 20%
+Válido até: 2025-12-17
+
+
+================================================================================
+RECLAMAÇÃO 2/15
+================================================================================
+Título: Atendimento péssimo
+Cliente: Maria Santos
+Categoria: atendimento
+Sentimento: Negativo
+Urgência: 7.5/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá Maria Santos,
+
+Pedimos sinceras desculpas pela experiência negativa com nosso atendimento. Isso não reflete nossos padrões de qualidade.
+
+Já repassamos o feedback para nossa equipe e estamos trabalhando para melhorar.
+
+Para compensar o transtorno, gostaríamos de oferecer um cupom de 15% de desconto: VENKEKBJNEJ
+
+Contamos com sua compreensão.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VENKEKBJNEJ
+Desconto: 15%
+Válido até: 2025-12-17
+
+
+================================================================================
+RECLAMAÇÃO 3/15
+================================================================================
+Título: Entrega atrasada
+Cliente: Carlos Oliveira
+Categoria: entrega
+Sentimento: Muito Negativo
+Urgência: 8.5/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá Carlos Oliveira,
+
+Lamentamos profundamente o problema com a entrega do seu pedido. Entendemos a frustração causada.
+
+Já estamos apurando o ocorrido com nossa logística para evitar que se repita.
+
+Como compensação, preparamos um cupom de 20% de desconto: VEN8PD2CB8X
+
+Agradecemos sua paciência.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VEN8PD2CB8X
+Desconto: 20%
+Válido até: 2025-12-17
+
+
+================================================================================
+RECLAMAÇÃO 4/15
+================================================================================
+Título: Cobrança errada
+Cliente: Ana Paula
+Categoria: preco
+Sentimento: Negativo
+Urgência: 8.0/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá Ana Paula,
+
+Pedimos desculpas pela inconsistência no preço/cobrança. Já estamos verificando internamente.
+
+Tomaremos as providências necessárias para corrigir a situação.
+
+Como gesto de boa vontade, segue cupom de 20% de desconto: VEN08NU7Y5K
+
+Estamos à disposição.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VEN08NU7Y5K
+Desconto: 20%
+Válido até: 2025-12-17
+
+
+================================================================================
+RECLAMAÇÃO 5/15
+================================================================================
+Título: Produto diferente do anunciado
+Cliente: Pedro Costa
+Categoria: produto
+Sentimento: Muito Negativo
+Urgência: 9.5/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá Pedro Costa,
+
+Sentimos muito pelo problema que você enfrentou com notebook. Sua satisfação é muito importante para nós.
+
+Já identificamos o ocorrido e estamos tomando as medidas necessárias para que isso não se repita.
+
+Como forma de desculpas, gostaríamos de oferecer um cupom de 20% de desconto para sua próxima compra: VENDF4BNH0Q
+
+Estamos à disposição para qualquer dúvida.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VENDF4BNH0Q
+Desconto: 20%
+Válido até: 2025-12-17
+
+
+================================================================================
+RECLAMAÇÃO 6/15
+================================================================================
+Título: Dificuldade para trocar
+Cliente: Juliana Lima
+Categoria: atendimento
+Sentimento: Negativo
+Urgência: 7.0/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá Juliana Lima,
+
+Pedimos sinceras desculpas pela experiência negativa com nosso atendimento. Isso não reflete nossos padrões de qualidade.
+
+Já repassamos o feedback para nossa equipe e estamos trabalhando para melhorar.
+
+Para compensar o transtorno, gostaríamos de oferecer um cupom de 15% de desconto: VENVJ48LIW4
+
+Contamos com sua compreensão.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VENVJ48LIW4
+Desconto: 15%
+Válido até: 2025-12-17
+
+
+================================================================================
+RECLAMAÇÃO 7/15
+================================================================================
+Título: Entrega no endereço errado
+Cliente: Ricardo Souza
+Categoria: entrega
+Sentimento: Muito Negativo
+Urgência: 9.0/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá Ricardo Souza,
+
+Lamentamos profundamente o problema com a entrega do seu pedido. Entendemos a frustração causada.
+
+Já estamos apurando o ocorrido com nossa logística para evitar que se repita.
+
+Como compensação, preparamos um cupom de 20% de desconto: VEN03W31435
+
+Agradecemos sua paciência.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VEN03W31435
+Desconto: 20%
+Válido até: 2025-12-17
+
+
+================================================================================
+RECLAMAÇÃO 8/15
+================================================================================
+Título: Produto com arranhões
+Cliente: Fernanda Rocha
+Categoria: produto
+Sentimento: Negativo
+Urgência: 6.5/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá Fernanda Rocha,
+
+Sentimos muito pelo problema que você enfrentou com TV. Sua satisfação é muito importante para nós.
+
+Já identificamos o ocorrido e estamos tomando as medidas necessárias para que isso não se repita.
+
+Como forma de desculpas, gostaríamos de oferecer um cupom de 15% de desconto para sua próxima compra: VENHO5KAOE0
+
+Estamos à disposição para qualquer dúvida.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VENHO5KAOE0
+Desconto: 15%
+Válido até: 2025-12-17
+
+
+================================================================================
+RECLAMAÇÃO 9/15
+================================================================================
+Título: Preço diferente do site
+Cliente: Marcos Pereira
+Categoria: preco
+Sentimento: Muito Negativo
+Urgência: 8.5/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá Marcos Pereira,
+
+Pedimos desculpas pela inconsistência no preço/cobrança. Já estamos verificando internamente.
+
+Tomaremos as providências necessárias para corrigir a situação.
+
+Como gesto de boa vontade, segue cupom de 20% de desconto: VEN1Z07CXUM
+
+Estamos à disposição.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VEN1Z07CXUM
+Desconto: 20%
+Válido até: 2025-12-17
+
+
+================================================================================
+RECLAMAÇÃO 10/15
+================================================================================
+Título: Vendedor mentiu sobre garantia
+Cliente: Luciana Alves
+Categoria: atendimento
+Sentimento: Negativo
+Urgência: 7.5/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá Luciana Alves,
+
+Pedimos sinceras desculpas pela experiência negativa com nosso atendimento. Isso não reflete nossos padrões de qualidade.
+
+Já repassamos o feedback para nossa equipe e estamos trabalhando para melhorar.
+
+Para compensar o transtorno, gostaríamos de oferecer um cupom de 15% de desconto: VENAT990ICL
+
+Contamos com sua compreensão.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VENAT990ICL
+Desconto: 15%
+Válido até: 2025-12-17
+
+
+================================================================================
+RECLAMAÇÃO 11/15
+================================================================================
+Título: Produto não chegou
+Cliente: Roberto Dias
+Categoria: entrega
+Sentimento: Muito Negativo
+Urgência: 9.5/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá Roberto Dias,
+
+Lamentamos profundamente o problema com a entrega do seu pedido. Entendemos a frustração causada.
+
+Já estamos apurando o ocorrido com nossa logística para evitar que se repita.
+
+Como compensação, preparamos um cupom de 20% de desconto: VENR1L09FV7
+
+Agradecemos sua paciência.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VENR1L09FV7
+Desconto: 20%
+Válido até: 2025-12-17
+
+
+================================================================================
+RECLAMAÇÃO 12/15
+================================================================================
+Título: Falta de peças
+Cliente: Silvia Martins
+Categoria: produto
+Sentimento: Negativo
+Urgência: 8.0/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá Silvia Martins,
+
+Sentimos muito pelo problema que você enfrentou com fogão. Sua satisfação é muito importante para nós.
+
+Já identificamos o ocorrido e estamos tomando as medidas necessárias para que isso não se repita.
+
+Como forma de desculpas, gostaríamos de oferecer um cupom de 20% de desconto para sua próxima compra: VENE6VNMMZJ
+
+Estamos à disposição para qualquer dúvida.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VENE6VNMMZJ
+Desconto: 20%
+Válido até: 2025-12-17
+
+
+================================================================================
+RECLAMAÇÃO 13/15
+================================================================================
+Título: SAC não resolve
+Cliente: Paulo Henrique
+Categoria: atendimento
+Sentimento: Muito Negativo
+Urgência: 8.5/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá Paulo Henrique,
+
+Pedimos sinceras desculpas pela experiência negativa com nosso atendimento. Isso não reflete nossos padrões de qualidade.
+
+Já repassamos o feedback para nossa equipe e estamos trabalhando para melhorar.
+
+Para compensar o transtorno, gostaríamos de oferecer um cupom de 20% de desconto: VEN33VKJ3RU
+
+Contamos com sua compreensão.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VEN33VKJ3RU
+Desconto: 20%
+Válido até: 2025-12-17
+
+
+================================================================================
+RECLAMAÇÃO 14/15
+================================================================================
+Título: Cupom não funcionou
+Cliente: Beatriz Campos
+Categoria: outros
+Sentimento: Negativo
+Urgência: 5.5/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá Beatriz Campos,
+
+Agradecemos por compartilhar sua experiência conosco. Sentimos muito pelo ocorrido.
+
+Levamos seu feedback muito a sério e já estamos trabalhando para melhorar.
+
+Como forma de desculpas, preparamos um cupom de 15% de desconto: VENYIV82OWM
+
+Conte conosco.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VENYIV82OWM
+Desconto: 15%
+Válido até: 2025-12-17
+
+
+================================================================================
+RECLAMAÇÃO 15/15
+================================================================================
+Título: Loja suja e desorganizada
+Cliente: Gabriel Mendes
+Categoria: outros
+Sentimento: Negativo
+Urgência: 4.5/10
+
+RESPOSTA GERADA:
+--------------------------------------------------------------------------------
+
+Olá Gabriel Mendes,
+
+Agradecemos por compartilhar sua experiência conosco. Sentimos muito pelo ocorrido.
+
+Levamos seu feedback muito a sério e já estamos trabalhando para melhorar.
+
+Como forma de desculpas, preparamos um cupom de 10% de desconto: VENK3D4U98R
+
+Conte conosco.
+
+Atenciosamente,
+Equipe Venâncio
+
+--------------------------------------------------------------------------------
+
+Cupom: VENK3D4U98R
+Desconto: 10%
+Válido até: 2025-12-17
+
+
+================================================================================
+RESUMO DOS TESTES
+================================================================================
+Total de respostas geradas: 15
+
+Distribuição por categoria:
+  - produto: 4
+  - atendimento: 4
+  - entrega: 3
+  - preco: 2
+  - outros: 2
+
+Distribuição de descontos:
+  - 10%: 1 cupons
+  - 15%: 5 cupons
+  - 20%: 9 cupons
+
+================================================================================
+AVALIAÇÃO DE QUALIDADE
+================================================================================
+Respostas coerentes e completas: 15/15 (100%)
+Todas as respostas incluem:
+Traceback (most recent call last):
+  File "C:\Users\Felipe\Downloads\python_projects\DOOOR_projects\projeto_venancio\backend\test_response_simple.py", line 294, in <module>
+    results = test_response_generation()
+  File "C:\Users\Felipe\Downloads\python_projects\DOOOR_projects\projeto_venancio\backend\test_response_simple.py", line 283, in test_response_generation
+    print(f"  \u2713 Saudação personalizada")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 2: character maps to <undefined>

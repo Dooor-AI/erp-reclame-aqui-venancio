@@ -1,0 +1,603 @@
+{
+  "timestamp": "20251117_141945",
+  "total": 19,
+  "successful": 19,
+  "failed": 0,
+  "results": [
+    {
+      "complaint_id": 2,
+      "title": "Produto defeituoso e sem solução",
+      "text_preview": "Adquiri um fogão 5 bocas que apresentou defeito logo na primeira semana. Já solicitei a troca mas ni...",
+      "analysis": {
+        "complaint_id": 2,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente relata um produto defeituoso, falta de solução, descumprimento de obrigações pela empresa e péssimo atendimento, indicando uma experiência totalmente insatisfatória."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento"
+          ],
+          "primary_category": "produto",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": "fogão 5 bocas",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "A empresa",
+            "troca",
+            "atendimento"
+          ]
+        },
+        "urgency_score": 5.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 3,
+      "title": "Atendimento horrível",
+      "text_preview": "Fui muito mal atendido na loja da Avenida Principal. O funcionário Carlos foi extremamente rude e nã...",
+      "analysis": {
+        "complaint_id": 3,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa forte insatisfação, descrevendo o atendimento como 'horrível', 'muito mal atendido' e o funcionário como 'extremamente rude', considerando o tratamento 'inadmissível'."
+        },
+        "classification": {
+          "categories": [
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.99
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Avenida Principal",
+          "funcionario": "Carlos",
+          "outros": [
+            "cliente"
+          ]
+        },
+        "urgency_score": 6.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 4,
+      "title": "Ninguém resolve meu problema",
+      "text_preview": "Ligo para o SAC há dias e ninguém resolve. Falam que vão retornar e nunca acontece. Descaso total co...",
+      "analysis": {
+        "complaint_id": 4,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema frustração com problemas não resolvidos, promessas não cumpridas, descaso total e a ameaça de ação judicial."
+        },
+        "classification": {
+          "categories": [
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "SAC",
+            "consumidor",
+            "judicialmente"
+          ]
+        },
+        "urgency_score": 8.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 5,
+      "title": "Entrega atrasada há 2 meses",
+      "text_preview": "Comprei um sofá há 2 meses e até hoje não foi entregue. Ligo todos os dias e ninguém sabe informar q...",
+      "analysis": {
+        "complaint_id": 5,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa extrema frustração com o atraso de dois meses na entrega, a falta de informação e a necessidade de cancelar o pedido e exigir estorno, culminando na declaração de que a situação é um \"absurdo\"."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "sofá",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "pedido",
+            "estorno total"
+          ]
+        },
+        "urgency_score": 6.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 6,
+      "title": "Entrega foi para endereço errado",
+      "text_preview": "O produto que comprei foi entregue no endereço errado e agora estou sem o produto e sem resposta. Pr...",
+      "analysis": {
+        "complaint_id": 6,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente relata um erro grave na entrega, perda do produto, falta de resposta e prejuízo total, exigindo o dinheiro de volta com urgência."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "endereço errado",
+            "dinheiro"
+          ]
+        },
+        "urgency_score": 8.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 7,
+      "title": "Cobrança indevida no cartão",
+      "text_preview": "Fui cobrado duas vezes pela mesma compra. Já reclamei no banco e na loja mas ninguém resolve. Isso p...",
+      "analysis": {
+        "complaint_id": 7,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente relata uma cobrança indevida não resolvida, expressa frustração, suspeita de fraude e planeja escalar a reclamação formalmente."
+        },
+        "classification": {
+          "categories": [
+            "preco",
+            "atendimento"
+          ],
+          "primary_category": "preco",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": "loja",
+          "funcionario": null,
+          "outros": [
+            "banco",
+            "Procon"
+          ]
+        },
+        "urgency_score": 9.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 8,
+      "title": "Preço diferente do anunciado",
+      "text_preview": "O site anunciava um preço e na hora de finalizar a compra cobraram outro valor muito mais alto. Prop...",
+      "analysis": {
+        "complaint_id": 8,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa forte insatisfação e acusa a empresa de propaganda enganosa devido a uma diferença de preço no checkout, exigindo a correção."
+        },
+        "classification": {
+          "categories": [
+            "preco"
+          ],
+          "primary_category": "preco",
+          "confidence": 0.98
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "Site"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 9,
+      "title": "Problemas com tudo",
+      "text_preview": "Comprei um ar condicionado que chegou com defeito, o entregador foi grosseiro, o atendimento ao clie...",
+      "analysis": {
+        "complaint_id": 9,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema insatisfação devido a múltiplos problemas graves com o produto, entrega, atendimento e cobrança, culminando na decisão de não comprar novamente."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento",
+            "preco"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": "ar condicionado",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "frete indevido",
+            "atendimento ao cliente",
+            "entregador"
+          ]
+        },
+        "urgency_score": 5.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 10,
+      "title": "Produto ok mas poderia melhorar",
+      "text_preview": "A máquina de lavar funciona bem, mas achei o consumo de energia um pouco alto. Atendimento foi razoá...",
+      "analysis": {
+        "complaint_id": 10,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 4.0,
+          "reasoning": "O cliente expressa decepção com o consumo de energia, o atendimento mediano e a relação custo-benefício, apesar de o produto funcionar."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento",
+            "preco"
+          ],
+          "primary_category": "produto",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": "máquina de lavar",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "consumo de energia",
+            "preço"
+          ]
+        },
+        "urgency_score": 3.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 11,
+      "title": "Experiência mediana",
+      "text_preview": "Comprei um micro-ondas. Entrega foi no prazo, produto funciona normalmente. Nada de excepcional mas ...",
+      "analysis": {
+        "complaint_id": 11,
+        "sentiment": {
+          "sentiment": "Neutro",
+          "sentiment_score": 5.0,
+          "reasoning": "O cliente descreve a experiência como mediana, sem pontos excepcionais ou problemas, indicando um sentimento neutro."
+        },
+        "classification": {
+          "categories": [],
+          "primary_category": null,
+          "confidence": 1.0
+        },
+        "entities": {
+          "produto": "micro-ondas",
+          "loja": null,
+          "funcionario": null,
+          "outros": null
+        },
+        "urgency_score": 2.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 12,
+      "title": "Excelente atendimento",
+      "text_preview": "Fui muito bem atendido pela funcionária Amanda na loja do centro. Ela foi super atenciosa e me ajudo...",
+      "analysis": {
+        "complaint_id": 12,
+        "sentiment": {
+          "sentiment": "Positivo",
+          "sentiment_score": 10.0,
+          "reasoning": "O cliente expressa satisfação total com o atendimento, usando termos como 'Excelente', 'muito bem atendido', 'super atenciosa' e 'Recomendo!'."
+        },
+        "classification": {
+          "categories": [
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": "loja do centro",
+          "funcionario": "Amanda",
+          "outros": []
+        },
+        "urgency_score": 0.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 13,
+      "title": "Produto de qualidade",
+      "text_preview": "Comprei uma geladeira e estou muito satisfeito. Chegou no prazo, instalação perfeita, produto de exc...",
+      "analysis": {
+        "complaint_id": 13,
+        "sentiment": {
+          "sentiment": "Positivo",
+          "sentiment_score": 10.0,
+          "reasoning": "O cliente expressa grande satisfação com a compra, elogiando o produto, o prazo de entrega e a instalação com termos como 'muito satisfeito' e 'excelente qualidade'."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento",
+            "entrega"
+          ],
+          "primary_category": "produto",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": "geladeira",
+          "loja": null,
+          "funcionario": null,
+          "outros": []
+        },
+        "urgency_score": 1.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 14,
+      "title": "Vou processar a empresa",
+      "text_preview": "Comprei um fogão que explodiu e quase causou um incêndio na minha casa. Minha família poderia ter se...",
+      "analysis": {
+        "complaint_id": 14,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente relata uma situação gravíssima de explosão de um produto, quase causando um incêndio e ferimentos, e informa que vai processar a empresa."
+        },
+        "classification": {
+          "categories": [
+            "produto"
+          ],
+          "primary_category": "produto",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "fogão",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "minha casa",
+            "Minha família",
+            "advogado",
+            "incêndio"
+          ]
+        },
+        "urgency_score": 10.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 15,
+      "title": "Produto falsificado",
+      "text_preview": "Recebi um produto que não é original, parece ser falsificado. Paguei caro por algo genuíno e recebi ...",
+      "analysis": {
+        "complaint_id": 15,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente denuncia ter recebido um produto falsificado, expressa sentir-se enganado por uma 'fraude' e ameaça denunciar às autoridades, indicando um sentimento de extrema insatisfação e raiva."
+        },
+        "classification": {
+          "categories": [
+            "produto"
+          ],
+          "primary_category": "produto",
+          "confidence": 0.98
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "autoridades competentes"
+          ]
+        },
+        "urgency_score": 9.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 16,
+      "title": "Pequeno problema na entrega",
+      "text_preview": "O produto chegou um dia depois do prazo previsto. Fiquei um pouco chateado mas nada grave. O produto...",
+      "analysis": {
+        "complaint_id": 16,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 4.0,
+          "reasoning": "O cliente expressa uma leve chateação com o atraso na entrega, mas ressalta que o problema não foi grave e que o produto em si é bom."
+        },
+        "classification": {
+          "categories": [
+            "entrega"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "entrega",
+            "prazo previsto"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 17,
+      "title": "Embalagem danificada",
+      "text_preview": "Recebi o produto com a caixa amassada, mas o conteúdo estava intacto. Acho que poderiam ter mais cui...",
+      "analysis": {
+        "complaint_id": 17,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 3.0,
+          "reasoning": "A reclamação indica insatisfação com a embalagem danificada e sugere falta de cuidado no transporte, mesmo que o conteúdo estivesse intacto."
+        },
+        "classification": {
+          "categories": [
+            "entrega"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "embalagem",
+            "caixa",
+            "conteúdo",
+            "transporte"
+          ]
+        },
+        "urgency_score": 3.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 18,
+      "title": "Prazo de troca muito curto",
+      "text_preview": "A política de troca de apenas 7 dias é muito restritiva. Outros concorrentes oferecem 30 dias. Isso ...",
+      "analysis": {
+        "complaint_id": 18,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 3.0,
+          "reasoning": "O cliente expressa insatisfação com uma política de troca considerada muito curta e restritiva, sugerindo a necessidade de melhoria em comparação com concorrentes."
+        },
+        "classification": {
+          "categories": [
+            "outros"
+          ],
+          "primary_category": "outros",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "política de troca",
+            "7 dias",
+            "30 dias"
+          ]
+        },
+        "urgency_score": 3.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 19,
+      "title": "Site com problemas",
+      "text_preview": "Tentei comprar pelo site mas o sistema de pagamento apresentou erro várias vezes. Tive que ir na loj...",
+      "analysis": {
+        "complaint_id": 19,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente relatou múltiplos erros no sistema de pagamento do site, resultando em inconveniência e exigência de melhorias urgentes."
+        },
+        "classification": {
+          "categories": [
+            "produto"
+          ],
+          "primary_category": "produto",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": null,
+          "loja": "loja física",
+          "funcionario": null,
+          "outros": [
+            "Site",
+            "sistema de pagamento"
+          ]
+        },
+        "urgency_score": 6.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 20,
+      "title": "Garantia negada sem motivo",
+      "text_preview": "Meu produto está na garantia mas a empresa se recusa a fazer o reparo alegando motivos absurdos. Iss...",
+      "analysis": {
+        "complaint_id": 20,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema insatisfação com a negação da garantia por motivos 'absurdos' e 'desrespeito' ao código de defesa do consumidor, com intenção de acionar o Procon."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento"
+          ],
+          "primary_category": "produto",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "código de defesa do consumidor",
+            "Procon"
+          ]
+        },
+        "urgency_score": 9.5,
+        "status": "completed"
+      }
+    }
+  ],
+  "errors": []
+}

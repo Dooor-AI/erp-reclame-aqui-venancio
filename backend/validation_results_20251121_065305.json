@@ -1,0 +1,493 @@
+{
+  "timestamp": "20251121_065305",
+  "total": 9,
+  "successful": 9,
+  "failed": 0,
+  "results": [
+    {
+      "complaint_id": 21,
+      "title": "Atraso na entrega expressa e falta de contato da empresa",
+      "text_preview": "Fiz o meu pedido às 17:31 no dia 14/11, com entrega expressa de até 2h. Recebi uma mensagem no Whats...",
+      "analysis": {
+        "complaint_id": 21,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema insatisfação e frustração com o atraso significativo de uma entrega expressa e a completa falta de comunicação da empresa, agravada pela necessidade urgente dos itens (fraldas para bebê)."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "fraldas",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "WhatsApp",
+            "entrega expressa",
+            "14/11",
+            "17:31",
+            "21:54",
+            "farmácia"
+          ]
+        },
+        "urgency_score": 5.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "entrega expressa",
+            "mensagem no WhatsApp",
+            "saber sobre a entrega",
+            "pedido não chegou"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "atraso-entrega-expressa",
+            "falta-retorno-contato",
+            "atendimento-indisponivel"
+          ],
+          "primary_tag": "atraso-entrega-expressa",
+          "specificity_score": 0.85
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 22,
+      "title": "Atraso na entrega de fralda e falta de comprometimento com o cliente",
+      "text_preview": "Fiz a compra de uma fralda para meu filho hoje 14/11, com entrega expressa e pagamento em pix. Meu p...",
+      "analysis": {
+        "complaint_id": 22,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa forte insatisfação devido a atraso na entrega, falta de comprometimento e atendimento ineficaz, classificando o serviço como 'péssimo'."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "fralda",
+          "loja": "farmácia",
+          "funcionario": null,
+          "outros": [
+            "pix",
+            "sac",
+            "entregador"
+          ]
+        },
+        "urgency_score": 6.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 0.95,
+          "indicators": [
+            "entrega expressa",
+            "pedido não foi entregue dentro do prazo, esta em atraso",
+            "Segundo o entregador ele esteve no local",
+            "eu estava no quintal aguardando",
+            "Liguei para o sac",
+            "a loja iria mandar outro entregador"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "atraso-entrega",
+            "prazo-estourado",
+            "tentativa-entrega-falha",
+            "falta-resolucao"
+          ],
+          "primary_tag": "atraso-entrega",
+          "specificity_score": 0.75
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 23,
+      "title": "Atendimento demorado, não aplicação de cupom de desconto, favorecimento de outros clientes e cancelamento indevido de compra na farmácia.",
+      "text_preview": "Três dias tendo uma péssima experiência com essa farmácia! Estive na farmácia ontem para realizar a ...",
+      "analysis": {
+        "complaint_id": 23,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "A reclamação descreve múltiplas falhas de serviço, como atendimento demorado, problemas com cupons, favorecimento de clientes, cancelamento indevido de compra sem estorno, e expressa indignação e frustração com termos como 'péssima experiência', 'surreal', 'falta de respeito' e 'absurdo', culminando em 'nunca mais'."
+        },
+        "classification": {
+          "categories": [
+            "atendimento",
+            "preco",
+            "produto"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "Nutren",
+          "loja": null,
+          "funcionario": "Sérgio",
+          "outros": [
+            "manjaro de 5 mg",
+            "Rep da Nestlé",
+            "Nestlé",
+            "cupom de desconto"
+          ]
+        },
+        "urgency_score": 6.5,
+        "store_type": {
+          "store_type": "physical",
+          "confidence": 1.0,
+          "indicators": [
+            "Estive na farmácia ontem",
+            "atendimento no balcão dessa farmácia",
+            "Cheguei na farmácia",
+            "atendida por um balconista",
+            "ao retornar à loja",
+            "balconista Sérgio, que me atendeu",
+            "uma cliente chegou por trás de mim falando o nome dele e pedindo que ele deixasse a ela o medicamento, pois ela não ficaria naquela fila.",
+            "ao chegar na loja para retirar o produto",
+            "O atendimento dessa loja é péssimo!"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "atendimento-demorado",
+            "cupom-nao-aplicado",
+            "favorecimento-cliente",
+            "compra-cancelada-indevidamente",
+            "reembolso-pendente"
+          ],
+          "primary_tag": "compra-cancelada-indevidamente",
+          "specificity_score": 0.75
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 24,
+      "title": "Propaganda enganosa no site ao comprar kit Nutren Senior Baunilha",
+      "text_preview": "Site com propagando enganosa<br />O kit do nutren Senior baunilha aparece com um valor. Quando clico...",
+      "analysis": {
+        "complaint_id": 24,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente denuncia 'propaganda enganosa' e uma diferença significativa no preço do produto entre o que foi anunciado e o valor final da compra."
+        },
+        "classification": {
+          "categories": [
+            "preco"
+          ],
+          "primary_category": "preco",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "kit Nutren Senior Baunilha",
+          "loja": "site",
+          "funcionario": null,
+          "outros": []
+        },
+        "urgency_score": 5.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "Menção de 'site'",
+            "clico pra fazer a compra"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "propaganda-enganosa",
+            "preco-divergente",
+            "erro-no-site"
+          ],
+          "primary_tag": "propaganda-enganosa",
+          "specificity_score": 0.85
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 25,
+      "title": "Pedido não entregue e falta de estorno após solicitação de cancelamento",
+      "text_preview": "Fiz um pedido no dia 26 de setembro, não recebi, porém tinha status de entregue. Diversas vezes entr...",
+      "analysis": {
+        "complaint_id": 25,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa extrema insatisfação com um pedido não entregue, um status de entrega incorreto e a falta de estorno após múltiplas tentativas de contato e promessas."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento",
+            "preco"
+          ],
+          "primary_category": "preco",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "26 de setembro",
+            "canal de atendimento",
+            "[Editado pelo Reclame Aqui]"
+          ]
+        },
+        "urgency_score": 4.5,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "Pedido não entregue",
+            "não recebi",
+            "status de entregue",
+            "solicitação de cancelamento"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "pedido-nao-entregue",
+            "status-entrega-incorreto",
+            "estorno-pendente",
+            "cancelamento-nao-efetivado"
+          ],
+          "primary_tag": "estorno-pendente",
+          "specificity_score": 0.85
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 26,
+      "title": "Impossibilidade de aplicação de medicamento e informações incorretas",
+      "text_preview": "Pela segunda vez insisti em comprar meu remédio de quase mil reias na filial Méier para poder ser ap...",
+      "analysis": {
+        "complaint_id": 26,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "A reclamação descreve múltiplas falhas de serviço, informações incorretas e incompetência da empresa, resultando na impossibilidade de aplicar um medicamento caro e no risco de sua perda, com menção explícita a um possível caso judicial."
+        },
+        "classification": {
+          "categories": [
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Méier",
+          "funcionario": null,
+          "outros": [
+            "Av. Almirante Barros",
+            "Central",
+            "medicamento que precisa ficar na refrigeração"
+          ]
+        },
+        "urgency_score": 6.5,
+        "store_type": {
+          "store_type": "physical",
+          "confidence": 1.0,
+          "indicators": [
+            "filial Méier",
+            "aplicado no local",
+            "fui pegar a medicação",
+            "farmacêutico trabalha por escala",
+            "gerente da loja Méier",
+            "loja da Av. Almirante Barros",
+            "número de telefone da loja",
+            "interação presencial com funcionários (farmacêutico, gerente)",
+            "nomes de bairros/endereços físicos (Méier, Av. Almirante Barros)"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "falha-servico-farmaceutico",
+            "informacoes-incorretas",
+            "falta-farmaceutico",
+            "risco-perda-medicamento"
+          ],
+          "primary_tag": "falha-servico-farmaceutico",
+          "specificity_score": 0.75
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 27,
+      "title": "Atendimento inadequado e falta de suporte na compra emergencial de pasta de estomia na Drogaria Venâncio.",
+      "text_preview": "Numa emergência , contei coma. Drogaria Venâncio para a compra de uma pasta de estomia . <br /><br /...",
+      "analysis": {
+        "complaint_id": 27,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "A reclamação descreve um atendimento 'super grosseiro', 'sem tati e humanidade alguma' e a falta de interesse em resolver uma situação emergencial, indicando uma experiência extremamente negativa."
+        },
+        "classification": {
+          "categories": [
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.98
+        },
+        "entities": {
+          "produto": "pasta de estomia",
+          "loja": "Drogaria Venâncio",
+          "funcionario": null,
+          "outros": [
+            "Motor Uber"
+          ]
+        },
+        "urgency_score": 5.0,
+        "store_type": {
+          "store_type": "physical",
+          "confidence": 1.0,
+          "indicators": [
+            "A atendente da loja super grosseira",
+            "No local CPF e nome de quem vai retirar",
+            "Os funcionários tem de receber treinamento",
+            "Não percebi o menor interesse do atendente"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "atendente-rude",
+            "dificuldade-retirada-terceiro",
+            "falta-suporte",
+            "falta-treinamento-equipe"
+          ],
+          "primary_tag": "atendente-rude",
+          "specificity_score": 0.8
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 28,
+      "title": "Atendimento inadequado e demora na compra de medicamentos controlados na Drogaria Venâncio",
+      "text_preview": "Prezados<br /><br />Fui a Drogaria Venância na Praça Saens Pena entre às ruas Carlos Vasconcelos e S...",
+      "analysis": {
+        "complaint_id": 28,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente descreve um atendimento inadequado, demorado e com erros, agravado pelo comportamento rude e discriminatório da atendente, que impediu a conclusão da compra e resultou na perda da receita digital."
+        },
+        "classification": {
+          "categories": [
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "cloridrato de trazodona",
+          "loja": "Drogaria Venâncio",
+          "funcionario": null,
+          "outros": [
+            "Praça Saens Pena",
+            "TEA"
+          ]
+        },
+        "urgency_score": 5.0,
+        "store_type": {
+          "store_type": "physical",
+          "confidence": 1.0,
+          "indicators": [
+            "Fui a Drogaria Venância",
+            "Praça Saens Pena entre às ruas Carlos Vasconcelos e Soares da Costa",
+            "A atendente teve que pedir ajuda pára farmacêutica",
+            "eu pedi um um remédio",
+            "me dirigir ao caixa para pagar",
+            "voltar a esta Venâncio"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "demora-atendimento",
+            "atendimento-desrespeitoso",
+            "medicamento-errado",
+            "inutilizacao-receita-digital"
+          ],
+          "primary_tag": "atendimento-desrespeitoso",
+          "specificity_score": 0.8
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 29,
+      "title": "Pedido online cancelado por falta de produto após a compra e deslocamento",
+      "text_preview": "Comprei on-line bem à noite um nebulizadior e uma medicação para minha filha asmática e fui buscar à...",
+      "analysis": {
+        "complaint_id": 29,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa forte frustração por ter o pedido online cancelado por falta de produto após deslocamento, resultando em perda de tempo e dinheiro e classificando a experiência como um 'total desserviço'."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "nebulizadior",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "medicação",
+            "filha asmática",
+            "pedido online"
+          ]
+        },
+        "urgency_score": 4.5,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 0.9,
+          "indicators": [
+            "Pedido online",
+            "Comprei on-line",
+            "fui buscar",
+            "Chegando lá",
+            "deslocamento"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "venda-sem-estoque",
+            "pedido-cancelado",
+            "deslocamento-desnecessario",
+            "falha-comunicacao"
+          ],
+          "primary_tag": "venda-sem-estoque",
+          "specificity_score": 0.75
+        },
+        "status": "completed"
+      }
+    }
+  ],
+  "errors": []
+}

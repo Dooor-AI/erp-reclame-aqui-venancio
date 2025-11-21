@@ -1,0 +1,72 @@
+{
+  "daysRemaining": 0,
+  "userCity": "Rio de Janeiro",
+  "companyName": null,
+  "description": "Ontem, dia 17/11 realizei um pedido pelo site às 19:49, pagando frete diferenciado para que o produto chegasse em 2h. O pedido foi faturado e recebido o rastreio por zap as 20:19, a Uber faria a entrega.As 20:52 a Uber informou que o entregador *****, com placa de carro,  já estava chegando. Desci do meu apt até a entrada do prédio para receber, para minha surpresa o Sr ***** falou meu nome e disse que houve um erro na loja V18 no despacho do produto, que o mesmo não estava com ele, ainda estava na loja e quem iria fazer a entrega seria outro entregador chamado *****, disse que a loja tinha verificado o problema e não conseguiu reverter a situação. Disse que precisaria cancelar a entrega e que a entrega que ele iria efetuar era para o prédio ao lado. Logo em seguida não consegui mais acesso à Uber pq a entrega foi cancelada sem informar que o motivo alegado pelo entregador. Com muito custo consegui o zap da loja V18, informei o ocorrido e perguntei sobre o produto às 21:25. Às 21:29 eles me responderam com foto da nota fiscal dizendo que o produto estava em loja, que não tinha sido retirado e que a situação já tinha sido comunicada ao suporte e solicitado um entregador. A partir de então nenhum contato mais foi feito pela farmácia, nem por zap ou email. Hoje, dia 18/11 fiz contato às 8h e recebi uma resposta às 9:52 onde o atendente ignorou toda conversa anterior  dizendo que o produto retornou para a loja pq o entregador não encontrou o endereço,  respondi contando toda situação,  que o entregador conversou comigo e meu marido e o produto não estava com ele, inclusive como afirmado pela própria farmácia na noite anterior. O atendente ignorou mais uma vez afirmando que o produto retornou pq o entregador não encontrou o endereço. Gostaria de registrar minha decepção com o atendimento prestado pela venancio V18, desacreditando totalmente o cliente que pagou por uma entrega expressa e não teve, escrevendo em letras maiusculas, mostrando falta de profissionalismo e grosseria, tentado transferir a responsabilidade pelo despreparo da equipe da farmácia para o cliente, cujo único erro foi comprar nesta empresa.Ainda bem que não se tratava de remédio para uso emergencial, pois se fosse o caso o problema seria ainda mais sério. Não recomendo a ninguém os serviços dessa farmácia!  Somente após meu contato o produto foi entregue por volta das 12h... nem prioridade na resolução do problema eles tiveram! Profissionais da V18 totalmente despreparados para atendimento ao público, principalmente por se tratar de serviço essencial como os farmacêuticos. Péssima experiência. Procurem outra farmácia.",
+  "solved": true,
+  "companyLogoPath": null,
+  "dealAgain": true,
+  "title": "Atraso na entrega e informações incorretas sobre pedido na farmácia Venancio V18",
+  "interactions": [
+    {
+      "id": "nDgJfmtj7BQK4iZo",
+      "message": "Olá, Narayana <br /><br />Agradecemos sinceramente por nos alertar sobre a situação. Conversamos hoje por telefone e confirmamos que o pedido foi entregue. Também informamos que as medidas corretivas necessárias para garantir que nossos atendimentos estejam sempre alinhados ao padrão Venancio já estão em andamento.<br /><br />Pedimos desculpas por qualquer transtorno que possa ter sido causado e reforçamos que nosso desejo é que todas as suas próximas experiências conosco sejam positivas e acolhedoras.<br /><br />Conte sempre com a gente!<br /><br />Avalie o atendimento prestado pelo nosso time no Reclame Aqui.<br /><br />Atenciosamente,<br />Flávia - Time Reclame Aqui<br />DrogariaVenancio",
+      "created": "2025-11-18T15:05:19",
+      "modified": "2025-11-18T15:05:30",
+      "deleted": false,
+      "legacyId": null,
+      "type": "ANSWER"
+    },
+    {
+      "id": "uwDJAhaiZ3F_bbua",
+      "message": "A Flavia e o Rodrigo entraram em contato comigo e fizeram a retratação, se comprometeram em tomar as medidas cabiveis para que situações como esta não ocorram novamente.",
+      "created": "2025-11-18T19:29:19",
+      "modified": null,
+      "deleted": false,
+      "legacyId": null,
+      "type": "FINAL_ANSWER"
+    }
+  ],
+  "evaluation": "A Flavia e o Rodrigo entraram em contato comigo e fizeram a retratação, se comprometeram em tomar as medidas cabiveis para que situações como esta não ocorram novamente.",
+  "hasMaskedPhoneOrEmail": false,
+  "score": 10,
+  "userState": "RJ",
+  "additionalInfo": "",
+  "legacyId": 232228183,
+  "modified": "2025-11-18T19:29:19",
+  "evaluated": true,
+  "id": "dxtonRxTVnN6QyPt",
+  "productType": {},
+  "dateExpire": null,
+  "created": "2025-11-18T14:18:10",
+  "userId": "0000000003716822",
+  "url": "atraso-na-entrega-e-informacoes-incorretas-sobre-pedido-na-farmacia-venancio-v18_dxtonRxTVnN6QyPt",
+  "companyId": "109913",
+  "deleted": false,
+  "category": {
+    "cover": {},
+    "deleted": false,
+    "color": null,
+    "created": "2025-11-20T16:05:16",
+    "ip": null,
+    "name": "Farmácias",
+    "legacyId": null,
+    "modified": null,
+    "productTypes": [],
+    "id": "0000000000000028",
+    "shortName": "farmacias"
+  },
+  "problemType": {
+    "productSensitive": true,
+    "deleted": false,
+    "created": "2025-11-20T16:05:16",
+    "ip": null,
+    "name": "Atraso na entrega",
+    "legacyId": null,
+    "modified": null,
+    "id": "0000000000000001",
+    "problemOrigin": "PRODUCT"
+  },
+  "companyShortname": null,
+  "status": "SOLVED"
+}

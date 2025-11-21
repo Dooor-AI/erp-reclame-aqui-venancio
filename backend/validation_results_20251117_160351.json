@@ -1,0 +1,673 @@
+{
+  "timestamp": "20251117_160351",
+  "total": 20,
+  "successful": 20,
+  "failed": 0,
+  "results": [
+    {
+      "complaint_id": 41,
+      "title": "Demora e mau atendimento na troca de produto na farmácia Venâncio - Mariz e Barros",
+      "text_preview": "Eu já tive problemas com compras online na Venâncio antes, mas como caso foi solucionado me mantive ...",
+      "analysis": {
+        "complaint_id": 41,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "A reclamação descreve detalhadamente uma experiência de atendimento extremamente negativa, marcada por longa espera, desrespeito, deboche dos funcionários e um pós-venda péssimo."
+        },
+        "classification": {
+          "categories": [
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "produto",
+          "loja": "Farmácia Venâncio - Mariz e Barros",
+          "funcionario": "Geovana e Ruth",
+          "outros": [
+            "compras online"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 42,
+      "title": "Nebulizador com defeito: Loja se recusa a trocar produto essencial para criança",
+      "text_preview": "Estive na loja da Venâncio, localizado na *****, *****, ***** - *****, CNPJ *****. No dia 12/11/2025...",
+      "analysis": {
+        "complaint_id": 42,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "A reclamação é fortemente negativa devido a um nebulizador essencial para uma criança vir com defeito e a loja se recusar a realizar a troca imediata, gerando frustração e potencialmente impactando a saúde."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "aparelho de Nebulização INCOTERM NB1100 MESH",
+          "loja": "Drogaria Venâncio",
+          "funcionario": null,
+          "outros": [
+            "Código de Defesa do Consumidor (CDC Lei 8.078/1990)",
+            "fabricante",
+            "filha de 2 anos",
+            "12/11/2025",
+            "17/11/2025",
+            "CNPJ *****"
+          ]
+        },
+        "urgency_score": 9.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 43,
+      "title": "NÃO DERAM DESCONTO",
+      "text_preview": "NÃO ME DERAM O DESCONTO PROMETIDO [Preview - full text may require detail page]...",
+      "analysis": {
+        "complaint_id": 43,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa insatisfação e frustração por não ter recebido um desconto prometido."
+        },
+        "classification": {
+          "categories": [
+            "preco"
+          ],
+          "primary_category": "preco",
+          "confidence": 0.98
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "desconto"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 44,
+      "title": "Atraso na entrega, falta de suporte e impossibilidade de cancelamento do pedido *****",
+      "text_preview": "Realizei um pedido no dia (data) por volta das 19h, número do pedido *****, pagando pelo frete Super...",
+      "analysis": {
+        "complaint_id": 44,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "A reclamação expressa grande insatisfação com atraso na entrega, falta de suporte, impossibilidade de cancelamento e ameaças de acionar órgãos de defesa do consumidor e medidas judiciais."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento",
+            "outros"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": "V30",
+          "funcionario": null,
+          "outros": [
+            "Código de Defesa do Consumidor",
+            "Procon",
+            "Consumidor.gov"
+          ]
+        },
+        "urgency_score": 10.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 45,
+      "title": "Produto com defeito, dificuldade na troca e informações incorretas no atendimento",
+      "text_preview": "Realizei um pedido pelo site com retirada em loja (Cachambi), e ao chegar em casa, fui utilizar o pr...",
+      "analysis": {
+        "complaint_id": 45,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa frustração com um produto defeituoso, atendimento demorado e com informações divergentes, além da dificuldade em realizar a devolução e o estorno desejados."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Cachambi",
+          "funcionario": "Walquiria",
+          "outros": [
+            "site",
+            "whatsapp",
+            "CDC",
+            "pix"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 46,
+      "title": "Atraso na entrega expressa e falta de contato da empresa",
+      "text_preview": "Fiz o meu pedido às 17:31 no dia 14/11, com entrega expressa de até 2h. Recebi uma mensagem no Whats...",
+      "analysis": {
+        "complaint_id": 46,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa frustração e raiva devido a um atraso significativo na entrega de um item essencial (fraldas), falta de contato da empresa e 'descaso total com o cliente'."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.98
+        },
+        "entities": {
+          "produto": "fraldas",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "WhatsApp"
+          ]
+        },
+        "urgency_score": 5.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 47,
+      "title": "Atraso na entrega de fralda e falta de comprometimento com o cliente",
+      "text_preview": "Fiz a compra de uma fralda para meu filho hoje 14/11, com entrega expressa e pagamento em pix. Meu p...",
+      "analysis": {
+        "complaint_id": 47,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema insatisfação com o atraso na entrega, promessas não cumpridas, um atendimento considerado péssimo e a demanda por um estorno imediato."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "fralda",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "SAC",
+            "Pix"
+          ]
+        },
+        "urgency_score": 6.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 48,
+      "title": "Atendimento demorado, não aplicação de cupom de desconto, favorecimento de outros clientes e cancelamento indevido de compra na farmácia.",
+      "text_preview": "Três dias tendo uma péssima experiência com essa farmácia! Estive na farmácia ontem para realizar a ...",
+      "analysis": {
+        "complaint_id": 48,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "A reclamação detalha múltiplas falhas graves de serviço, como demora excessiva, problemas com cupons de desconto, favorecimento de outros clientes e cancelamento de compra sem aviso ou estorno, resultando em uma experiência péssima e frustrante."
+        },
+        "classification": {
+          "categories": [
+            "atendimento",
+            "preco"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "Nutren",
+          "loja": "farmácia",
+          "funcionario": "Sérgio",
+          "outros": [
+            "cupom de desconto",
+            "Rep da Nestlé",
+            "Nestlé",
+            "estorno do pagamento",
+            "WhatsApp",
+            "manjaro de 5 mg",
+            "laboratórios",
+            "parcerias",
+            "outra loja"
+          ]
+        },
+        "urgency_score": 6.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 49,
+      "title": "Propaganda enganosa no site ao comprar kit Nutren Senior Baunilha",
+      "text_preview": "Site com propagando enganosaO kit do nutren Senior baunilha aparece com um valor. Quando clico pra f...",
+      "analysis": {
+        "complaint_id": 49,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente relata propaganda enganosa no site, onde o preço de um kit aparece com um valor e, ao clicar para comprar, sai por um valor muito mais alto."
+        },
+        "classification": {
+          "categories": [
+            "preco"
+          ],
+          "primary_category": "preco",
+          "confidence": 0.99
+        },
+        "entities": {
+          "produto": "kit Nutren Senior Baunilha",
+          "loja": "Site",
+          "funcionario": null,
+          "outros": [
+            "Propaganda enganosa"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 50,
+      "title": "Pedido não entregue e falta de estorno após solicitação de cancelamento",
+      "text_preview": "Fiz um pedido no dia 26 de setembro, não recebi, porém tinha status de entregue. Diversas vezes entr...",
+      "analysis": {
+        "complaint_id": 50,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente relata um pedido não entregue, status incorreto de entrega, falta de estorno prometido após solicitação de cancelamento e frustração com a falta de solução após múltiplos contatos."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "preco"
+          ],
+          "primary_category": "preco",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "26 de setembro",
+            "[Editado pelo Reclame Aqui]"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 51,
+      "title": "Nebulizador com defeito: Loja se recusa a trocar produto essencial para criança",
+      "text_preview": "Estive na loja da Venâncio, localizado na *****, *****, ***** - *****, CNPJ *****. No dia 12/11/2025...",
+      "analysis": {
+        "complaint_id": 51,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "A reclamação descreve um defeito em um produto essencial para uma criança e a recusa da loja em realizar a troca imediata, o que gera grande frustração e é percebido como um absurdo pelo cliente."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": "INCOTERM NB1100 MESH",
+          "loja": "Drogaria Venâncio",
+          "funcionario": null,
+          "outros": [
+            "Código de Defesa do Consumidor",
+            "fabricante",
+            "filha"
+          ]
+        },
+        "urgency_score": 9.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 52,
+      "title": "NÃO DERAM DESCONTO",
+      "text_preview": "NÃO ME DERAM O DESCONTO PROMETIDO [Preview - full text may require detail page]...",
+      "analysis": {
+        "complaint_id": 52,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa claramente a frustração e insatisfação por não ter recebido um desconto prometido."
+        },
+        "classification": {
+          "categories": [
+            "preco"
+          ],
+          "primary_category": "preco",
+          "confidence": 1.0
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "DESCONTO"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 53,
+      "title": "Atraso na entrega, falta de suporte e impossibilidade de cancelamento do pedido *****",
+      "text_preview": "Realizei um pedido no dia (data) por volta das 19h, número do pedido *****, pagando pelo frete Super...",
+      "analysis": {
+        "complaint_id": 53,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente relata atraso significativo na entrega, completa falta de suporte, impossibilidade de cancelamento e ameaça ações legais e órgãos de defesa do consumidor."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": "V30",
+          "funcionario": null,
+          "outros": [
+            "Código de Defesa do Consumidor",
+            "Procon",
+            "Consumidor.gov",
+            "frete Super Expresso",
+            "aplicativo"
+          ]
+        },
+        "urgency_score": 10.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 54,
+      "title": "Produto com defeito, dificuldade na troca e informações incorretas no atendimento",
+      "text_preview": "Realizei um pedido pelo site com retirada em loja (Cachambi), e ao chegar em casa, fui utilizar o pr...",
+      "analysis": {
+        "complaint_id": 54,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "A reclamação detalha um produto com defeito, atendimento demorado e com informações incorretas, gerando frustração e dificuldades para o cliente resolver o problema."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Cachambi",
+          "funcionario": "Walquiria",
+          "outros": [
+            "whatsapp",
+            "CDC",
+            "pix"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 55,
+      "title": "Atraso na entrega expressa e falta de contato da empresa",
+      "text_preview": "Fiz o meu pedido às 17:31 no dia 14/11, com entrega expressa de até 2h. Recebi uma mensagem no Whats...",
+      "analysis": {
+        "complaint_id": 55,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "A reclamação detalha um atraso severo na entrega expressa de um item essencial (fraldas), falta de comunicação e descaso total por parte da empresa."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.98
+        },
+        "entities": {
+          "produto": "fraldas",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "WhatsApp",
+            "empresa"
+          ]
+        },
+        "urgency_score": 5.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 56,
+      "title": "Atraso na entrega de fralda e falta de comprometimento com o cliente",
+      "text_preview": "Fiz a compra de uma fralda para meu filho hoje 14/11, com entrega expressa e pagamento em pix. Meu p...",
+      "analysis": {
+        "complaint_id": 56,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa forte insatisfação com o atraso na entrega de um pedido urgente, falha na comunicação, informações incorretas do entregador e um atendimento que considera péssimo, demandando estorno imediato."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "fralda",
+          "loja": "farmácia",
+          "funcionario": null,
+          "outros": [
+            "14/11",
+            "pix",
+            "entrega expressa",
+            "SAC",
+            "estorno"
+          ]
+        },
+        "urgency_score": 6.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 57,
+      "title": "Atendimento demorado, não aplicação de cupom de desconto, favorecimento de outros clientes e cancelamento indevido de compra na farmácia.",
+      "text_preview": "Três dias tendo uma péssima experiência com essa farmácia! Estive na farmácia ontem para realizar a ...",
+      "analysis": {
+        "complaint_id": 57,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente relata uma série de experiências extremamente negativas ao longo de vários dias, incluindo atendimento demorado, problemas com cupons de desconto, favorecimento explícito de outros clientes, e o cancelamento indevido de uma compra sem aviso ou estorno, culminando na declaração de nunca mais retornar à farmácia."
+        },
+        "classification": {
+          "categories": [
+            "atendimento",
+            "preco"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "Nutren",
+          "loja": "farmácia",
+          "funcionario": "Sérgio",
+          "outros": [
+            "cupom de desconto",
+            "cancelamento de compra",
+            "Rep da Nestlé",
+            "manjaro de 5 mg",
+            "estorno do pagamento",
+            "WhatsApp",
+            "laboratórios"
+          ]
+        },
+        "urgency_score": 6.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 58,
+      "title": "Propaganda enganosa no site ao comprar kit Nutren Senior Baunilha",
+      "text_preview": "Site com propagando enganosaO kit do nutren Senior baunilha aparece com um valor. Quando clico pra f...",
+      "analysis": {
+        "complaint_id": 58,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa insatisfação e acusa o site de 'propaganda enganosa' devido a uma diferença significativa entre o preço exibido e o preço final do produto."
+        },
+        "classification": {
+          "categories": [
+            "preco"
+          ],
+          "primary_category": "preco",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "Nutren Senior Baunilha",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "Propaganda enganosa",
+            "site"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 59,
+      "title": "Pedido não entregue e falta de estorno após solicitação de cancelamento",
+      "text_preview": "Fiz um pedido no dia 26 de setembro, não recebi, porém tinha status de entregue. Diversas vezes entr...",
+      "analysis": {
+        "complaint_id": 59,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente relata a não entrega de um pedido e a ausência de estorno após múltiplas solicitações de cancelamento, expressando forte frustração com a falta de solução."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "preco",
+            "atendimento"
+          ],
+          "primary_category": "preco",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "pedido",
+            "estorno",
+            "cancelamento",
+            "canal de atendimento",
+            "26 de setembro"
+          ]
+        },
+        "urgency_score": 5.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 60,
+      "title": "Impossibilidade de aplicação de medicamento e informações incorretas",
+      "text_preview": "Pela segunda vez insisti em comprar meu remédio de quase mil reias na filial Méier para poder ser ap...",
+      "analysis": {
+        "complaint_id": 60,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente relata múltiplas falhas no serviço, informações incorretas, indisponibilidade de farmacêutico para aplicação de medicamento essencial e risco de estrago do produto, gerando grande frustração e ameaça de ação judicial."
+        },
+        "classification": {
+          "categories": [
+            "atendimento",
+            "produto"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Méier",
+          "funcionario": null,
+          "outros": [
+            "Av. Almirante Barros",
+            "Central",
+            "farmacêutico",
+            "gerente"
+          ]
+        },
+        "urgency_score": 6.5,
+        "status": "completed"
+      }
+    }
+  ],
+  "errors": []
+}

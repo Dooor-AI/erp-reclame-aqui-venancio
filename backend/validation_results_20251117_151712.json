@@ -1,0 +1,681 @@
+{
+  "timestamp": "20251117_151712",
+  "total": 20,
+  "successful": 20,
+  "failed": 0,
+  "results": [
+    {
+      "complaint_id": 21,
+      "title": "Atraso na entrega e falta de contato para resolução de pedido urgente",
+      "text_preview": "Fiz meu pedido no 24/10 e escolhi frete para entrega até 14/11. Eu tenho uma campanha pra lançar e o...",
+      "analysis": {
+        "complaint_id": 21,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa extrema insatisfação devido a um atraso crítico na entrega, falta de comunicação da empresa e a ameaça de medidas judiciais, indicando um impacto significativo em sua campanha."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "material",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "campanha",
+            "frete",
+            "rastreamento",
+            "medidas judiciais"
+          ]
+        },
+        "urgency_score": 6.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 22,
+      "title": "Nota fiscal Magalu/Aliexpress",
+      "text_preview": "Comprei um produto no aliexpress junto a magalu e não foi eviado uma nota fiscal legível....",
+      "analysis": {
+        "complaint_id": 22,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 2.0,
+          "reasoning": "O cliente expressa insatisfação por não ter recebido uma nota fiscal legível após uma compra, o que representa um problema no serviço."
+        },
+        "classification": {
+          "categories": [
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Magalu",
+          "funcionario": null,
+          "outros": [
+            "Aliexpress",
+            "Nota fiscal"
+          ]
+        },
+        "urgency_score": 4.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 23,
+      "title": "Magalu se RECUSA a enviar PlayStation 5 e tenta forçar cancelamento",
+      "text_preview": "Comprei um PlayStation 5 e a Magalu simplesmente se recusa a enviar. Tentando me empurrar um cancela...",
+      "analysis": {
+        "complaint_id": 23,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema decepção, frustração e revolta, acusando a empresa de recusa em enviar um produto pago, desrespeito, atitude antiética e ilegal, além de exigir a resolução imediata do problema."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "PlayStation 5",
+          "loja": "Magalu",
+          "funcionario": null,
+          "outros": [
+            "AliExpress",
+            "Magalu Store",
+            "Código de Defesa do Consumidor"
+          ]
+        },
+        "urgency_score": 6.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 24,
+      "title": "Pedido pago via PIX não entregue e sem reembolso - n *****",
+      "text_preview": "por mais uma vez liguei na magazine e pedi um retorno sobre o meu caso, e mais uma VEZ No tive retor...",
+      "analysis": {
+        "complaint_id": 24,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "A reclamação expressa extrema frustração com o não recebimento do produto e reembolso, prejuízos financeiros e morais, e a intenção de registrar um boletim de ocorrência devido à falta de solução."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "preco",
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": "magazine",
+          "funcionario": null,
+          "outros": [
+            "PIX",
+            "boletim de ocorrencia",
+            "pedido"
+          ]
+        },
+        "urgency_score": 5.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 25,
+      "title": "Atraso na entrega e falta de atualização do rastreamento do Galaxy S24 Ultra comprado no AliExpress",
+      "text_preview": "Realizei a compra de um Galaxy S24 Ultra no AliExpress, na loja identificada como Magalu, no dia 12/...",
+      "analysis": {
+        "complaint_id": 25,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa forte insatisfação devido ao atraso na entrega, falta de atualização do rastreamento, ausência de previsão real e impossibilidade de contato com a transportadora, classificando a experiência como a 'pior'."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "Galaxy S24 Ultra",
+          "loja": "Magalu",
+          "funcionario": null,
+          "outros": [
+            "AliExpress",
+            "Ribeirão Preto",
+            "Magalog"
+          ]
+        },
+        "urgency_score": 6.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 26,
+      "title": "Solicitação de 2 via do pedido de lavadora comprada com milhas e dinheiro no Magazine Luiza via Smiles",
+      "text_preview": "Fiz uma compra no Magazine Luiza através do Shopping Smiles, pagando em milhas e dinheiro conforme d...",
+      "analysis": {
+        "complaint_id": 26,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente reporta que a lavadora estragou estando na garantia, o email informado está inativo e não consegue ser atendido pelo site, indicando uma experiência de frustração e problemas."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento"
+          ],
+          "primary_category": "produto",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "Lavadora de Roupas Electrolux LAC12 - Branco - 220V",
+          "loja": "Magazine Luiza",
+          "funcionario": null,
+          "outros": [
+            "Smiles",
+            "Número do pedido",
+            "Cód. Carrinho",
+            "Garantia",
+            "Segunda via do pedido",
+            "Milhas",
+            "Dinheiro"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 27,
+      "title": "Atraso na entrega de compra realizada no Aliexpress via Magazine Luiza",
+      "text_preview": "Fiz a compra no Aliexpress com parceira do Magazine Luiza no 11.11.até então tudo bem, no dia seguin...",
+      "analysis": {
+        "complaint_id": 27,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente relata um atraso significativo na entrega, dificuldade extrema de contato com a empresa responsável e incapacidade de cancelar o pedido, indicando uma experiência muito frustrante e negativa."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.98
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Aliexpress",
+          "funcionario": null,
+          "outros": [
+            "Magazine Luiza",
+            "MAGALOG"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 28,
+      "title": "Ar condicionado de 9.000 BTUs não entregue e falta de resposta das empresas",
+      "text_preview": "fiz uma uma compra de 3 ar condicionado2 de 12.000 btus entregues no prazo somente esses dois.1 de 9...",
+      "analysis": {
+        "complaint_id": 28,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa insatisfação pela não entrega de um produto e a completa falta de comunicação e suporte das empresas envolvidas."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "Ar condicionado de 9.000 BTUs",
+          "loja": "Magalu",
+          "funcionario": null,
+          "outros": [
+            "Friopecas"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 29,
+      "title": "Compra de ventilador cancelada sem motivo pela Magazine Luiza após pagamento",
+      "text_preview": "foi feita uma compra online Magazine Luiza compra essa de um ventilador Tufão foi paga no cartão pag...",
+      "analysis": {
+        "complaint_id": 29,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente reclama que uma compra paga foi cancelada sem motivo pela loja, causando frustração."
+        },
+        "classification": {
+          "categories": [
+            "outros",
+            "atendimento"
+          ],
+          "primary_category": "outros",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": "ventilador Tufão",
+          "loja": "Magazine Luiza",
+          "funcionario": null,
+          "outros": [
+            "cartão",
+            "e-mail",
+            "WhatsApp"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 30,
+      "title": "Não enviam meu PS5",
+      "text_preview": "Eu comprei na promoção do 11.11 um PlayStation 5 Slim Disk 1TB 1 Controle Branco Sony pela loja Maga...",
+      "analysis": {
+        "complaint_id": 30,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente comprou e pagou por um produto, foi instruído a cancelar sem justificativa, não recebeu suporte e está exigindo a entrega do item, citando a lei do consumidor."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "PlayStation 5 Slim Disk 1TB 1 Controle Branco Sony",
+          "loja": "Magazine Luiza",
+          "funcionario": null,
+          "outros": [
+            "Aliexpress",
+            "11.11",
+            "Código de Defesa do Consumidor",
+            "artigo 35, inciso I",
+            "17/11"
+          ]
+        },
+        "urgency_score": 6.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 31,
+      "title": "Reclamação contra Magazine Luiza: Não entrega, falta de informação, mau atendimento e atraso no estorno da compra de bicicleta infantil",
+      "text_preview": "venho registrar reclamação contra a empresa Magazine Luiza (Magalu) referente à não entrega de produ...",
+      "analysis": {
+        "complaint_id": 31,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "A reclamação detalha múltiplas falhas no serviço, incluindo não entrega do produto, mau atendimento, falta de informação e atraso no estorno, além de citar violações do Código de Defesa do Consumidor e prejuízos causados ao cliente."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento",
+            "outros"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "bicicleta infantil",
+          "loja": "Magazine Luiza",
+          "funcionario": null,
+          "outros": [
+            "Magalu",
+            "Ouvidoria da Magalu",
+            "SAC da empresa",
+            "Código de Defesa do Consumidor",
+            "PIX",
+            "evento de caridade"
+          ]
+        },
+        "urgency_score": 10.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 32,
+      "title": "Reagendamentos não cumpridos e falta de retorno para concerto de geladeira Electrolux. Solicito produto novo.",
+      "text_preview": "Desde outubro estou com problemas para o concerto de uma geladeira nova e cara.Já me enrolaram de to...",
+      "analysis": {
+        "complaint_id": 32,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema frustração com reagendamentos não cumpridos, falta de retorno e problemas persistentes em uma geladeira nova, solicitando um produto novo devido à ineficácia dos reparos."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento"
+          ],
+          "primary_category": "produto",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "geladeira Electrolux",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "Electrolux",
+            "Protocolo garantia da Electrolux",
+            "Solução técnica SVO-19385760"
+          ]
+        },
+        "urgency_score": 5.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 33,
+      "title": "Atraso no vale-compra após devolução de aspirador de pó com defeito (pedido *****)",
+      "text_preview": "Comprei vários produtos do Magalu, mas um deles, um aspirador de pó, não deu certo aqui em casa. Sol...",
+      "analysis": {
+        "complaint_id": 33,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente relata um atraso significativo no recebimento do vale-compra após a devolução de um produto com defeito, falta de retorno do atendimento e expressa sentir-se abandonado."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": "aspirador de pó",
+          "loja": "Magalu",
+          "funcionario": null,
+          "outros": [
+            "vale-compra",
+            "Correios",
+            "pedido *****",
+            "código de postagem *****"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 34,
+      "title": "Atraso na entrega e falta de contato para resolução de pedido urgente",
+      "text_preview": "Fiz meu pedido no 24/10 e escolhi frete para entrega até 14/11. Eu tenho uma campanha pra lançar e o...",
+      "analysis": {
+        "complaint_id": 34,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa frustração extrema com o atraso na entrega de um pedido urgente, a falta de comunicação e a ameaça de medidas judiciais devido ao impacto em sua campanha."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "pedido",
+            "campanha",
+            "filial de destino",
+            "empresa"
+          ]
+        },
+        "urgency_score": 6.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 35,
+      "title": "Nota fiscal Magalu/Aliexpress",
+      "text_preview": "Comprei um produto no aliexpress junto a magalu e não foi eviado uma nota fiscal legível....",
+      "analysis": {
+        "complaint_id": 35,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 2.0,
+          "reasoning": "A cliente relata um problema específico e objetivo: a não emissão de uma nota fiscal legível, indicando uma falha no serviço pós-venda."
+        },
+        "classification": {
+          "categories": [
+            "outros"
+          ],
+          "primary_category": "outros",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Aliexpress",
+          "funcionario": null,
+          "outros": [
+            "Magalu",
+            "Nota fiscal"
+          ]
+        },
+        "urgency_score": 4.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 36,
+      "title": "Magalu se RECUSA a enviar PlayStation 5 e tenta forçar cancelamento",
+      "text_preview": "Comprei um PlayStation 5 e a Magalu simplesmente se recusa a enviar. Tentando me empurrar um cancela...",
+      "analysis": {
+        "complaint_id": 36,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa extrema frustração e decepção com a recusa da Magalu em enviar um produto pago e a tentativa de forçar o cancelamento, considerando a situação desrespeitosa, antiética e ilegal."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "PlayStation 5",
+          "loja": "Magalu",
+          "funcionario": null,
+          "outros": [
+            "AliExpress",
+            "Magalu Store",
+            "Magazine Luiza",
+            "Código de Defesa do Consumidor"
+          ]
+        },
+        "urgency_score": 6.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 37,
+      "title": "Pedido pago via PIX não entregue e sem reembolso - n *****",
+      "text_preview": "por mais uma vez liguei na magazine e pedi um retorno sobre o meu caso, e mais uma VEZ No tive retor...",
+      "analysis": {
+        "complaint_id": 37,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema frustração e prejuízo financeiro e moral devido ao não recebimento de um pedido pago, à negação de reembolso e à falta de soluções, culminando na intenção de registrar um boletim de ocorrência."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "preco",
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Magazine",
+          "funcionario": null,
+          "outros": [
+            "PIX",
+            "n *****",
+            "boletim de ocorrencia"
+          ]
+        },
+        "urgency_score": 5.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 38,
+      "title": "Atraso na entrega e falta de atualização do rastreamento do Galaxy S24 Ultra comprado no AliExpress",
+      "text_preview": "Realizei a compra de um Galaxy S24 Ultra no AliExpress, na loja identificada como Magalu, no dia 12/...",
+      "analysis": {
+        "complaint_id": 38,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa forte frustração devido ao atraso na entrega, falta de atualização do rastreamento e a impossibilidade de contato com o suporte para obter informações sobre seu pedido."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "Galaxy S24 Ultra",
+          "loja": "Magalu",
+          "funcionario": null,
+          "outros": [
+            "AliExpress",
+            "Magalog",
+            "Ribeirão Preto"
+          ]
+        },
+        "urgency_score": 6.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 39,
+      "title": "Solicitação de 2 via do pedido de lavadora comprada com milhas e dinheiro no Magazine Luiza via Smiles",
+      "text_preview": "Fiz uma compra no Magazine Luiza através do Shopping Smiles, pagando em milhas e dinheiro conforme d...",
+      "analysis": {
+        "complaint_id": 39,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 2.0,
+          "reasoning": "O cliente possui uma lavadora estragada na garantia, não consegue atendimento pelo site e precisa de uma segunda via do pedido devido a um e-mail inativo."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento"
+          ],
+          "primary_category": "produto",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": "Lavadora de Roupas Electrolux LAC12 - Branco - 220V",
+          "loja": "Magazine Luiza",
+          "funcionario": null,
+          "outros": [
+            "Smiles",
+            "Electrolux"
+          ]
+        },
+        "urgency_score": 4.0,
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 40,
+      "title": "Atraso na entrega de compra realizada no Aliexpress via Magazine Luiza",
+      "text_preview": "Fiz a compra no Aliexpress com parceira do Magazine Luiza no 11.11.até então tudo bem, no dia seguin...",
+      "analysis": {
+        "complaint_id": 40,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa grande frustração com o atraso na entrega, a dificuldade de contato com o suporte das empresas e a impossibilidade de cancelar o pedido."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Aliexpress",
+          "funcionario": null,
+          "outros": [
+            "Magazine Luiza",
+            "MAGALOG",
+            "11.11",
+            "13/11/25",
+            "17/11/25",
+            "Transferência entre transportadoras"
+          ]
+        },
+        "urgency_score": 4.5,
+        "status": "completed"
+      }
+    }
+  ],
+  "errors": []
+}

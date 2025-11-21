@@ -1,0 +1,1113 @@
+{
+  "timestamp": "20251121_062820",
+  "total": 20,
+  "successful": 20,
+  "failed": 0,
+  "results": [
+    {
+      "complaint_id": 1,
+      "title": "Atraso na entrega de medicamento e dificuldade de contato com SAC",
+      "text_preview": "Realizei um pedido às 18:26 com entrega em até duas horas e mesmo assim não foi realizado dentro do ...",
+      "analysis": {
+        "complaint_id": 1,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema frustração e indignação com o atraso crítico na entrega de um medicamento e a completa impossibilidade de contato com o SAC, classificando a situação como um 'descaso enorme'."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "medicamento",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "SAC",
+            "entrega flash",
+            "empresa"
+          ]
+        },
+        "urgency_score": 5.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 0.95,
+          "indicators": [
+            "Realizei um pedido",
+            "entrega em até duas horas",
+            "entrega flash",
+            "Tentei contato com o SAC",
+            "Os demais telefones",
+            "Não recebi dentro do prazo"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "prazo-estourado",
+            "sac-inacessivel",
+            "entrega-medicamento"
+          ],
+          "primary_tag": "prazo-estourado",
+          "specificity_score": 0.75
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 2,
+      "title": "Pedido de remédio não entregue e prazo de 10 dias úteis para resolução",
+      "text_preview": "Fiz um pedido de remédio de pressão no dia 18/11/2025 nesta farmácia. <br />Acompanhei o status do p...",
+      "analysis": {
+        "complaint_id": 2,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente está extremamente insatisfeito com a não entrega de um remédio essencial e considera o prazo de 10 dias úteis para resolução como absurdo e prejudicial."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "remédio de pressão",
+          "loja": "drogaria Venâncio",
+          "funcionario": null,
+          "outros": [
+            "portaria do meu condomínio"
+          ]
+        },
+        "urgency_score": 6.5,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "Pedido de remédio não entregue",
+            "Acompanhei o status do pedido",
+            "informação que constava entregue",
+            "não tinha entregas de nenhuma espécie",
+            "Fiz contato pelo whatsapp"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "produto-nao-entregue",
+            "status-entrega-incorreto",
+            "prazo-resolucao-abusivo",
+            "medicamento-essencial"
+          ],
+          "primary_tag": "produto-nao-entregue",
+          "specificity_score": 0.8
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 3,
+      "title": "Impossibilidade de retirada parcial de pedido online pago via Pix devido à falta de item e recusa de exclusão do mesmo.",
+      "text_preview": "Fiz um pedido em 19/11/2025 pelo aplicativo com 10 itens. Recebi uma mensagem no WhatsApp indicado q...",
+      "analysis": {
+        "complaint_id": 3,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema frustração e insatisfação com a impossibilidade de retirada parcial de um pedido pago via Pix devido à falta de um item, com perda de descontos promocionais e usando termos como '[Editado pelo Reclame Aqui]' e 'desrespeito ao cliente'."
+        },
+        "classification": {
+          "categories": [
+            "atendimento",
+            "preco",
+            "outros"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "sabonete em barra",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "Pix",
+            "aplicativo",
+            "WhatsApp",
+            "pedido",
+            "estorno",
+            "descontos"
+          ]
+        },
+        "urgency_score": 5.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 0.9,
+          "indicators": [
+            "pedido online",
+            "pelo aplicativo",
+            "WhatsApp",
+            "descontos do aplicativo",
+            "refaça o pedido pelo aplicativo"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "falta-de-estoque",
+            "retirada-parcial-negada",
+            "perda-beneficio-promocional",
+            "divergencia-estoque-online"
+          ],
+          "primary_tag": "retirada-parcial-negada",
+          "specificity_score": 0.85
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 4,
+      "title": "Atraso na entrega de medicamentos e falta de comprometimento. Paguei para entrega flash, em 1 hora. Falei com o atendimento após 2:30h de atraso e me informaram que entregariam imediatamente. Já passou 5 horas e são 22:45h e não entregararam. Absurdo",
+      "text_preview": "Fiz a compra de medicamentos que preciso fazer uso e paguei o frete mais caro para ser entregue no p...",
+      "analysis": {
+        "complaint_id": 4,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa extrema frustração devido a um atraso crítico na entrega de medicamentos essenciais, falha no serviço pago e promessas não cumpridas do atendimento."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "medicamentos",
+          "loja": "drogaria",
+          "funcionario": null,
+          "outros": [
+            "entrega flash",
+            "frete",
+            "atendimento"
+          ]
+        },
+        "urgency_score": 6.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "Atraso na entrega de medicamentos",
+            "Paguei para entrega flash",
+            "paguei o frete mais caro para ser entregue",
+            "não recebi"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "atraso-entrega",
+            "entrega-expressa-nao-cumprida",
+            "medicamento-urgencia",
+            "promessa-atendimento-nao-cumprida"
+          ],
+          "primary_tag": "atraso-entrega",
+          "specificity_score": 0.78
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 5,
+      "title": "Atraso Excessivo na Entrega de Pedido - Falta de Compromisso",
+      "text_preview": "Fiz um pedido, hoje, dia 19/11/25, as 18:51 HS, com o calor da entrega incluso e promessa de entrega...",
+      "analysis": {
+        "complaint_id": 5,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema frustração e raiva devido a um atraso excessivo na entrega, utilizando hipérbole para destacar a gravidade e afirmando que não fará mais pedidos."
+        },
+        "classification": {
+          "categories": [
+            "entrega"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.99
+        },
+        "entities": {
+          "produto": "pedido",
+          "loja": "farmácia",
+          "funcionario": null,
+          "outros": [
+            "aplicativo",
+            "valor da entrega",
+            "medicamento",
+            "número do pedido"
+          ]
+        },
+        "urgency_score": 8.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "pedido foi realizado pelo aplicativo",
+            "Atraso Excessivo na Entrega de Pedido",
+            "promessa de entrega em até 60 minutos",
+            "ainda não foi entregue"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "atraso-entrega",
+            "prazo-estourado",
+            "descumprimento-promessa",
+            "falta-compromisso"
+          ],
+          "primary_tag": "atraso-entrega",
+          "specificity_score": 0.8
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 6,
+      "title": "Cancelamento indevido de compra online e falta de suporte da Venancio",
+      "text_preview": "Fui ao site Venancio para fazer compra de duas escovas de dentes para minha mãe. Chegando lá vi uma ...",
+      "analysis": {
+        "complaint_id": 6,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente relata um cancelamento indevido da compra, um atendimento inconsistente e ineficaz, e expressa extrema frustração e indignação com a falta de suporte e resolução, chegando a usar linguagem acusatória."
+        },
+        "classification": {
+          "categories": [
+            "atendimento",
+            "outros",
+            "produto",
+            "preco"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": "Epidrat calm B5",
+          "loja": "Venancio",
+          "funcionario": null,
+          "outros": [
+            "whatsapp",
+            "estoque",
+            "televendas",
+            "protocolo",
+            "prints",
+            "gravações de tela",
+            "frete"
+          ]
+        },
+        "urgency_score": 5.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "compra online",
+            "site Venancio",
+            "foram entregues",
+            "whatassp",
+            "o anuncio continua ativo no site",
+            "televendas",
+            "frete"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "cancelamento-indevido",
+            "atendimento-insatisfatorio",
+            "estoque-divergente",
+            "protocolo-nao-informado",
+            "garantia-de-compra-negada"
+          ],
+          "primary_tag": "cancelamento-indevido",
+          "specificity_score": 0.75
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 7,
+      "title": "Atraso na entrega do pedido e solicitação de cancelamento e estorno",
+      "text_preview": "Realizei um pedido hoje, dia 19/11, por volta de 12hs para entrega em 2hs!! Paguei o frete mais caro...",
+      "analysis": {
+        "complaint_id": 7,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa forte insatisfação e frustração com um atraso substancial na entrega do pedido, levando à solicitação de cancelamento e estorno."
+        },
+        "classification": {
+          "categories": [
+            "entrega"
+          ],
+          "primary_category": "entrega",
+          "confidence": 1.0
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "19/11",
+            "12hs",
+            "frete",
+            "cancelamento",
+            "estorno",
+            "Pedido *****"
+          ]
+        },
+        "urgency_score": 5.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 0.95,
+          "indicators": [
+            "Atraso na entrega do pedido",
+            "para entrega em 2hs",
+            "Paguei o frete mais caro"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "prazo-entrega-nao-cumprido",
+            "frete-expresso-nao-cumprido",
+            "cancelamento-solicitado",
+            "estorno-solicitado"
+          ],
+          "primary_tag": "prazo-entrega-nao-cumprido",
+          "specificity_score": 0.85
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 8,
+      "title": "Medicamento entregue vencido e [Editado pelo Reclame Aqui].",
+      "text_preview": "ENVIO DE MEDICAMENTO VENCIDO e cupom fiscal errado <br /><br />pedi um medicamento, através do Ifood...",
+      "analysis": {
+        "complaint_id": 8,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente relata a entrega de medicamento supostamente vencido e um cupom fiscal errado, além da ausência de atendimento nos canais de suporte, indicando uma experiência altamente insatisfatória."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "outros",
+            "atendimento"
+          ],
+          "primary_category": "produto",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "ITRASPOR",
+          "loja": "Venâncio",
+          "funcionario": null,
+          "outros": [
+            "Ifood",
+            "estrada da Cachamorra, 646"
+          ]
+        },
+        "urgency_score": 4.5,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 0.9,
+          "indicators": [
+            "pedi um medicamento, através do Ifood",
+            "aplicativo do Ifood",
+            "pedido chegou",
+            "Os canais eletrônicos da Venâncio não atendem",
+            "A loja de origem foi a da estrada da Cachamorra, 646."
+          ]
+        },
+        "tags": {
+          "tags": [
+            "medicamento-validade-curta",
+            "documento-fiscal-incorreto",
+            "falta-de-retorno"
+          ],
+          "primary_tag": "medicamento-validade-curta",
+          "specificity_score": 0.75
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 9,
+      "title": "Atraso na entrega e informações incorretas sobre pedido na farmácia Venancio V18",
+      "text_preview": "Ontem, dia 17/11 realizei um pedido pelo site às 19:49, pagando frete diferenciado para que o produt...",
+      "analysis": {
+        "complaint_id": 9,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa extrema insatisfação com múltiplos problemas na entrega, informações incorretas, falta de profissionalismo e atendimento ríspido, culminando em uma forte recomendação negativa."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Venancio V18",
+          "funcionario": "*****",
+          "outros": [
+            "Uber",
+            "zap",
+            "nota fiscal",
+            "entrega expressa",
+            "remédio",
+            "farmacêuticos",
+            "site",
+            "frete"
+          ]
+        },
+        "urgency_score": 4.5,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "realizei um pedido pelo site",
+            "pagando frete diferenciado",
+            "recebido o rastreio por zap",
+            "a Uber faria a entrega",
+            "Desci do meu apt até a entrada do prédio para receber",
+            "o entregador ... disse que houve um erro na loja V18 no despacho do produto",
+            "consegui o zap da loja V18",
+            "nenhum contato mais foi feito pela farmácia, nem por zap ou email",
+            "o produto retornou para a loja pq o entregador não encontrou o endereço",
+            "pagou por uma entrega expressa",
+            "o produto foi entregue por volta das 12h"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "atraso-entrega",
+            "informacao-divergente",
+            "atendente-rude",
+            "falha-logistica"
+          ],
+          "primary_tag": "atraso-entrega",
+          "specificity_score": 0.8
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 10,
+      "title": "Pedido cancelado indevidamente após aprovação e deslocamento do cliente",
+      "text_preview": "Fiz um pedido na data de ontem 17/11/25 para retirar na loja, pois, não havia entrega para o meu end...",
+      "analysis": {
+        "complaint_id": 10,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema frustração e indignação com o cancelamento indevido de um pedido após aprovação e deslocamento, classificando a situação como um 'absurdo' e 'total descaso'."
+        },
+        "classification": {
+          "categories": [
+            "atendimento",
+            "produto"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "Zona Norte",
+            "Zona Sul",
+            "site"
+          ]
+        },
+        "urgency_score": 6.5,
+        "store_type": {
+          "store_type": "physical",
+          "confidence": 0.9,
+          "indicators": [
+            "retirar na loja",
+            "chegando lá",
+            "balconista",
+            "na loja",
+            "funcionário",
+            "Zona Norte",
+            "Zona Sul",
+            "no local",
+            "locomoção",
+            "site"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "cancelamento-indevido",
+            "produto-indisponivel",
+            "falha-comunicacao",
+            "deslocamento-cliente"
+          ],
+          "primary_tag": "cancelamento-indevido",
+          "specificity_score": 0.8
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 11,
+      "title": "Canetas de insulina Novorapid secas e falta de retorno da Drogaria Venâncio",
+      "text_preview": "Na sexta-feira dia 07/11, minha madrinha *****, CPF: *****, realizou a compra de duas canetas de ins...",
+      "analysis": {
+        "complaint_id": 11,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "A reclamação descreve a compra de produtos essenciais defeituosos, múltiplas tentativas de resolução sem sucesso e uma percepção de descaso e prejuízo por parte do cliente."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento"
+          ],
+          "primary_category": "produto",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "Canetas de insulina Novorapid",
+          "loja": "Drogaria Venâncio",
+          "funcionario": null,
+          "outros": [
+            "madrinha",
+            "SAC",
+            "protocolo",
+            "laboratório Novo Nordisk",
+            "RS6NP35",
+            "RS6NN13"
+          ]
+        },
+        "urgency_score": 6.0,
+        "store_type": {
+          "store_type": "physical",
+          "confidence": 1.0,
+          "indicators": [
+            "pagou em dinheiro",
+            "entrei em contato com a farmácia presencialmente",
+            "pedindo que eu voltasse outro dia",
+            "na drogaria Venâncio na *****"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "produto-defeituoso",
+            "falta-resposta",
+            "descaso-atendimento"
+          ],
+          "primary_tag": "produto-defeituoso",
+          "specificity_score": 0.75
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 12,
+      "title": "Entrega incompleta e descaso no atendimento da Farmácia Venâncio",
+      "text_preview": "Fiz uma compra no site da Venâncio no dia 5/11/2025. Recebi o pacote no dia 6/11/25 faltando 2 produ...",
+      "analysis": {
+        "complaint_id": 12,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "A reclamação detalha uma entrega incompleta e múltiplos contatos ineficazes com o atendimento ao cliente, resultando em 'completa insatisfação' e a percepção de 'descaso' por parte da empresa."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": [
+            "desodorante",
+            "Hidratante Corporal"
+          ],
+          "loja": "Farmácia Venâncio",
+          "funcionario": [
+            "Daniele",
+            "Eduardo",
+            "Sheila"
+          ],
+          "outros": [
+            "site da Venâncio",
+            "telefone",
+            "pacote",
+            "câmeras",
+            "compradora assídua"
+          ]
+        },
+        "urgency_score": 5.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "Fiz uma compra no site",
+            "Recebi o pacote",
+            "Liguei imediatamente para o telefone",
+            "a loja que enviou meu pacote"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "entrega-incompleta",
+            "falta-de-resolucao",
+            "atendimento-ineficaz",
+            "demora-na-solucao"
+          ],
+          "primary_tag": "entrega-incompleta",
+          "specificity_score": 0.85
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 13,
+      "title": "NÃO RECEBI O PRODUTO NEM O DINHEI..A",
+      "text_preview": "Fiz um pedido pelo aplicativo. Não recebi. Fui até a loja no dia seguinte pra saber o que houve. Dis...",
+      "analysis": {
+        "complaint_id": 13,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema frustração por não ter recebido o produto nem o dinheiro de volta, apesar de um mês de tentativas de resolução com a loja e o SAC."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento",
+            "preco"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "dinheiro",
+            "aplicativo",
+            "comprovante",
+            "setor responsável",
+            "SAC"
+          ]
+        },
+        "urgency_score": 5.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 0.9,
+          "indicators": [
+            "aplicativo",
+            "Não recebi",
+            "Fui até a loja"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "produto-nao-entregue",
+            "reembolso-pendente",
+            "falha-no-processamento",
+            "sac-sem-solucao"
+          ],
+          "primary_tag": "produto-nao-entregue",
+          "specificity_score": 0.75
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 14,
+      "title": "Atraso na entrega e informação incorreta sobre pedido na Drogaria Venâncio online",
+      "text_preview": "Fiz o pedido de um medicamento na drogaria venâncio online para ser entregue em até 2h, já se passar...",
+      "analysis": {
+        "complaint_id": 14,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema insatisfação devido a atrasos na entrega, informações contraditórias sobre o pedido e um histórico de má logística, utilizando linguagem ofensiva."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "medicamento",
+          "loja": "Drogaria Venâncio online",
+          "funcionario": null,
+          "outros": [
+            "whatsapp",
+            "site"
+          ]
+        },
+        "urgency_score": 5.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "online",
+            "entrega",
+            "whatsapp",
+            "site"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "prazo-estourado",
+            "divergencia-status-pedido",
+            "falha-logistica"
+          ],
+          "primary_tag": "prazo-estourado",
+          "specificity_score": 0.85
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 15,
+      "title": "Mau atendimento, demora e desorganização na Venâncio - Mariz e Barros (RJ)",
+      "text_preview": "Hoje fui à Venâncio Unidade Mariz e Barros (TIJUCA - RJ) para fazer algumas compras, acompanhada de ...",
+      "analysis": {
+        "complaint_id": 15,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "A reclamação detalha diversas falhas no atendimento, como demora excessiva, desorganização e comportamento inadequado da equipe, resultando em uma experiência muito ruim para o cliente."
+        },
+        "classification": {
+          "categories": [
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 1.0
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Venâncio Unidade Mariz e Barros",
+          "funcionario": "Geovana",
+          "outros": [
+            "Ruth",
+            "gerente",
+            "TIJUCA",
+            "RJ",
+            "troca"
+          ]
+        },
+        "urgency_score": 6.0,
+        "store_type": {
+          "store_type": "physical",
+          "confidence": 1.0,
+          "indicators": [
+            "fui à Venâncio",
+            "Unidade Mariz e Barros (TIJUCA - RJ)",
+            "gerente da loja",
+            "funcionária do caixa, Geovana",
+            "salão",
+            "cliente aguardava atendimento no caixa"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "mau-atendimento",
+            "espera-excessiva",
+            "falta-atendente",
+            "ociosidade-funcionario"
+          ],
+          "primary_tag": "mau-atendimento",
+          "specificity_score": 0.75
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 16,
+      "title": "Demora e mau atendimento na troca de produto na farmácia Venâncio - Mariz e Barros",
+      "text_preview": "Eu já tive problemas com compras online na Venâncio antes, mas como caso foi solucionado me mantive ...",
+      "analysis": {
+        "complaint_id": 16,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "A reclamação detalha uma experiência extremamente negativa, com longa espera, desrespeito e deboches por parte das funcionárias, culminando na decisão de não realizar compras adicionais e na percepção de um péssimo atendimento pós-venda."
+        },
+        "classification": {
+          "categories": [
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.98
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Farmácia Venâncio - Mariz e Barros",
+          "funcionario": "Geovana e Ruth",
+          "outros": [
+            "compras online",
+            "farmacêutica",
+            "caixa"
+          ]
+        },
+        "urgency_score": 5.0,
+        "store_type": {
+          "store_type": "physical",
+          "confidence": 1.0,
+          "indicators": [
+            "Mariz e Barros",
+            "dentro da loja",
+            "farmacêutica",
+            "funcionárias presentes no caixa"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "demora-na-troca",
+            "desrespeito-ao-cliente",
+            "funcionarios-nao-solicitos",
+            "processo-de-troca-ineficiente"
+          ],
+          "primary_tag": "demora-na-troca",
+          "specificity_score": 0.8
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 17,
+      "title": "Nebulizador com defeito: Loja se recusa a trocar produto essencial para criança",
+      "text_preview": "Estive na loja da Venâncio, localizado na *****, *****, ***** - *****, CNPJ *****. No dia 12/11/2025...",
+      "analysis": {
+        "complaint_id": 17,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa frustração e indignação com a recusa da loja em trocar um nebulizador essencial e defeituoso, citando o Código de Defesa do Consumidor."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "aparelho de Nebulização INCOTERM NB1100 MESH",
+          "loja": "Drogaria Venâncio",
+          "funcionario": null,
+          "outros": [
+            "INCOTERM",
+            "Código de Defesa do Consumidor (CDC Lei 8.078/1990)",
+            "Nebulizador"
+          ]
+        },
+        "urgency_score": 9.0,
+        "store_type": {
+          "store_type": "physical",
+          "confidence": 1.0,
+          "indicators": [
+            "Estive na loja da Venâncio",
+            "localizado na *****, *****, ***** - *****",
+            "Compareci ao mesmo estabelecimento",
+            "Fui informada pela funcionária do balcão",
+            "procurei a gerente"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "produto-defeituoso",
+            "troca-recusada",
+            "produto-essencial",
+            "violacao-cdc"
+          ],
+          "primary_tag": "troca-recusada",
+          "specificity_score": 0.85
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 18,
+      "title": "NÃO DERAM DESCONTO",
+      "text_preview": "NÃO ME DERAM O DESCONTO PROMETIDO...",
+      "analysis": {
+        "complaint_id": 18,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa claramente insatisfação e frustração por não ter recebido um desconto que havia sido prometido."
+        },
+        "classification": {
+          "categories": [
+            "preco",
+            "atendimento"
+          ],
+          "primary_category": "preco",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "DESCONTO"
+          ]
+        },
+        "urgency_score": 4.5,
+        "store_type": {
+          "store_type": "unknown",
+          "confidence": 0.0,
+          "indicators": []
+        },
+        "tags": {
+          "tags": [
+            "desconto-nao-aplicado",
+            "promessa-nao-cumprida",
+            "preco-incorreto"
+          ],
+          "primary_tag": "desconto-nao-aplicado",
+          "specificity_score": 0.9
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 19,
+      "title": "Atraso na entrega, falta de suporte e impossibilidade de cancelamento do pedido *****",
+      "text_preview": "Realizei um pedido no dia (data) por volta das 19h, número do pedido *****, pagando pelo frete Super...",
+      "analysis": {
+        "complaint_id": 19,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "O cliente expressa extrema frustração e insatisfação devido a um atraso significativo na entrega, completa falta de suporte, impossibilidade de cancelamento do pedido e ameaça explicitamente com ações legais."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "pedido",
+          "loja": "V30",
+          "funcionario": null,
+          "outros": [
+            "frete Super Expresso",
+            "aplicativo",
+            "Código de Defesa do Consumidor",
+            "Procon",
+            "Consumidor.gov"
+          ]
+        },
+        "urgency_score": 10.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "Atraso na entrega",
+            "pagando pelo frete Super Expresso, com promessa de entrega",
+            "o aplicativo não oferece opção de cancelamento"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "atraso-entrega",
+            "prazo-descumprido",
+            "falta-suporte",
+            "impossibilidade-cancelamento"
+          ],
+          "primary_tag": "atraso-entrega",
+          "specificity_score": 0.85
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 20,
+      "title": "Produto com defeito, dificuldade na troca e informações incorretas no atendimento",
+      "text_preview": "Realizei um pedido pelo site com retirada em loja (Cachambi), e ao chegar em casa, fui utilizar o pr...",
+      "analysis": {
+        "complaint_id": 20,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente recebeu um produto com defeito, enfrentou dificuldades no atendimento com informações divergentes e demoradas, e não obteve a resolução desejada de estorno, indicando uma experiência altamente insatisfatória."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Cachambi",
+          "funcionario": "Walquiria",
+          "outros": [
+            "site",
+            "whatsapp",
+            "CDC",
+            "pix"
+          ]
+        },
+        "urgency_score": 4.5,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 0.9,
+          "indicators": [
+            "Realizei um pedido pelo site",
+            "retirada em loja (Cachambi)",
+            "Entrei em contato com o atendimento pelo whatsapp",
+            "informações que constam no site",
+            "a orientação é retornar a loja",
+            "no site diz que é pra entrar em contato com o atendimento e o atendimento joga pra loja direto"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "produto-defeituoso",
+            "dificuldade-devolucao",
+            "informacao-divergente",
+            "demora-atendimento"
+          ],
+          "primary_tag": "dificuldade-devolucao",
+          "specificity_score": 0.85
+        },
+        "status": "completed"
+      }
+    }
+  ],
+  "errors": []
+}

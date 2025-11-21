@@ -1,0 +1,499 @@
+{
+  "timestamp": "20251120_153946",
+  "total": 19,
+  "successful": 9,
+  "failed": 10,
+  "results": [
+    {
+      "complaint_id": 1,
+      "title": "Atraso na entrega de medicamentos e falta de comprometimento. Paguei para entrega flash, em 1 hora. Falei com o atendimento após 2:30h de atraso e me informaram que entregariam imediatamente. Já passou 5 horas e são 22:45h e não entregararam. Absurdo",
+      "text_preview": "Fiz a compra de medicamentos que preciso fazer uso e paguei o frete mais caro para ser entregue no p...",
+      "analysis": {
+        "complaint_id": 1,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente expressa extrema frustração devido a um atraso severo e prolongado na entrega de medicamentos essenciais, após pagar por um serviço de entrega rápida e receber informações falsas do atendimento."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.98
+        },
+        "entities": {
+          "produto": "medicamentos",
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "entrega flash",
+            "atendimento"
+          ]
+        },
+        "urgency_score": 6.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "Atraso na entrega",
+            "Paguei para entrega flash",
+            "Falei com o atendimento",
+            "paguei o frete mais caro",
+            "para ser entregue"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "atraso-entrega",
+            "entrega-urgente-nao-cumprida",
+            "frete-prioritario-nao-cumprido",
+            "promessa-atendimento-nao-cumprida"
+          ],
+          "primary_tag": "entrega-urgente-nao-cumprida",
+          "specificity_score": 0.85
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 2,
+      "title": "Atraso Excessivo na Entrega de Pedido - Falta de Compromisso",
+      "text_preview": "Fiz um pedido, hoje, dia 19/11/25, as 18:51 HS, com o calor da entrega incluso e promessa de entrega...",
+      "analysis": {
+        "complaint_id": 2,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "A reclamação inicia com o título 'Atraso Excessivo na Entrega de Pedido - Falta de Compromisso', indicando claramente uma experiência negativa."
+        },
+        "classification": {
+          "categories": [
+            "entrega"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "Atraso Excessivo na Entrega de Pedido",
+            "Falta de Compromisso",
+            "calor da entrega",
+            "promessa de entrega em até 60 minutos"
+          ]
+        },
+        "urgency_score": 4.5,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 0.8,
+          "indicators": [
+            "Atraso Excessivo na Entrega de Pedido",
+            "promessa de entrega em até 60 minutos"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "atraso-entrega",
+            "prazo-nao-cumprido",
+            "descumprimento-promessa"
+          ],
+          "primary_tag": "atraso-entrega",
+          "specificity_score": 0.75
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 3,
+      "title": "Negativa de Devolução de Implanon Comprado pela iFood na Venâncio",
+      "text_preview": "Comprei um implanon para dar de presente a uma amiga, na Venâncio, pelo iFood, no dia 12/11. Minha a...",
+      "analysis": {
+        "complaint_id": 3,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "A reclamação aborda uma 'negativa de devolução' de um produto, indicando uma experiência frustrante e insatisfatória para o cliente."
+        },
+        "classification": {
+          "categories": [
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.9
+        },
+        "entities": {
+          "produto": "Implanon",
+          "loja": "Venâncio",
+          "funcionario": null,
+          "outros": [
+            "iFood",
+            "amiga",
+            "médica"
+          ]
+        },
+        "urgency_score": 4.5,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "Comprado pela iFood"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "devolucao-negada",
+            "politica-de-devolucao",
+            "produto-saude",
+            "compra-app"
+          ],
+          "primary_tag": "devolucao-negada",
+          "specificity_score": 0.7
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 4,
+      "title": "Cancelamento indevido de compra online e falta de suporte da Venancio",
+      "text_preview": "Fui ao site Venancio para fazer compra de duas escovas de dentes para minha mãe. Chegando lá vi uma ...",
+      "analysis": {
+        "complaint_id": 4,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "A reclamação aborda um 'cancelamento indevido de compra' e 'falta de suporte', que são problemas claros e negativos para o cliente."
+        },
+        "classification": {
+          "categories": [
+            "outros",
+            "atendimento"
+          ],
+          "primary_category": "outros",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "escovas de dentes",
+          "loja": "Venancio",
+          "funcionario": null,
+          "outros": [
+            "compra online",
+            "suporte"
+          ]
+        },
+        "urgency_score": 4.5,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "compra online",
+            "site"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "cancelamento-indevido",
+            "falta-de-suporte"
+          ],
+          "primary_tag": "cancelamento-indevido",
+          "specificity_score": 0.75
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 5,
+      "title": "Atraso na entrega do pedido e solicitação de cancelamento e estorno",
+      "text_preview": "Realizei um pedido hoje, dia 19/11, por volta de 12hs para entrega em 2hs!! Paguei o frete mais caro...",
+      "analysis": {
+        "complaint_id": 5,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "A reclamação descreve um atraso significativo na entrega de um pedido com prazo urgente, resultando em uma solicitação de cancelamento e estorno."
+        },
+        "classification": {
+          "categories": [
+            "entrega"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "pedido",
+            "frete"
+          ]
+        },
+        "urgency_score": 4.5,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "Atraso na entrega do pedido",
+            "para entrega em 2hs",
+            "Paguei o frete mais caro"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "atraso-entrega",
+            "prazo-nao-cumprido",
+            "frete-expresso-falha",
+            "solicitacao-cancelamento",
+            "solicitacao-estorno"
+          ],
+          "primary_tag": "atraso-entrega",
+          "specificity_score": 0.8
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 6,
+      "title": "Medicamento entregue vencido e [Editado pelo Reclame Aqui].",
+      "text_preview": "ENVIO DE MEDICAMENTO VENCIDO e cupom fiscal errado <br /><br />pedi um medicamento, através do Ifood...",
+      "analysis": {
+        "complaint_id": 6,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 0.0,
+          "reasoning": "A reclamação relata a entrega de medicamento vencido e cupom fiscal errado, o que constitui uma falha grave e potencialmente perigosa no serviço."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "preco"
+          ],
+          "primary_category": "produto",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "ITRASPOR",
+          "loja": "Ifood",
+          "funcionario": null,
+          "outros": [
+            "cupom fiscal"
+          ]
+        },
+        "urgency_score": 5.0,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 0.95,
+          "indicators": [
+            "entregue",
+            "ENVIO",
+            "através do Ifood"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "produto-vencido",
+            "documento-fiscal-incorreto",
+            "fraude"
+          ],
+          "primary_tag": "produto-vencido",
+          "specificity_score": 0.85
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 7,
+      "title": "Atraso na entrega e informações incorretas sobre pedido na farmácia Venancio V18",
+      "text_preview": "Ontem, dia 17/11 realizei um pedido pelo site às 19:49, pagando frete diferenciado para que o produt...",
+      "analysis": {
+        "complaint_id": 7,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "A reclamação descreve um atraso na entrega e informações incorretas sobre o pedido, com a expectativa de entrega em 2 horas não sendo cumprida apesar do pagamento de frete diferenciado."
+        },
+        "classification": {
+          "categories": [
+            "entrega",
+            "atendimento"
+          ],
+          "primary_category": "entrega",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": "Venancio V18",
+          "funcionario": null,
+          "outros": [
+            "pedido",
+            "site",
+            "frete"
+          ]
+        },
+        "urgency_score": 4.5,
+        "store_type": {
+          "store_type": "online",
+          "confidence": 1.0,
+          "indicators": [
+            "realizei um pedido pelo site",
+            "pagando frete diferenciado",
+            "produto chegasse",
+            "Atraso na entrega"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "entrega-rapida-nao-cumprida",
+            "informacao-incorreta",
+            "servico-pago-nao-entregue"
+          ],
+          "primary_tag": "entrega-rapida-nao-cumprida",
+          "specificity_score": 0.75
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 8,
+      "title": "Pedido cancelado indevidamente após aprovação e deslocamento do cliente",
+      "text_preview": "Fiz um pedido na data de ontem 17/11/25 para retirar na loja, pois, não havia entrega para o meu end...",
+      "analysis": {
+        "complaint_id": 8,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "O cliente reclama de um pedido cancelado indevidamente após aprovação e o deslocamento para retirada, indicando frustração com o serviço."
+        },
+        "classification": {
+          "categories": [
+            "atendimento"
+          ],
+          "primary_category": "atendimento",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": null,
+          "loja": null,
+          "funcionario": null,
+          "outros": [
+            "cliente",
+            "17/11/25",
+            "endereço"
+          ]
+        },
+        "urgency_score": 4.5,
+        "store_type": {
+          "store_type": "physical",
+          "confidence": 0.95,
+          "indicators": [
+            "retirar na loja",
+            "deslocamento do cliente"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "cancelamento-indevido",
+            "falha-na-retirada",
+            "cliente-deslocado"
+          ],
+          "primary_tag": "cancelamento-indevido",
+          "specificity_score": 0.75
+        },
+        "status": "completed"
+      }
+    },
+    {
+      "complaint_id": 9,
+      "title": "Canetas de insulina Novorapid secas e falta de retorno da Drogaria Venâncio",
+      "text_preview": "Na sexta-feira dia 07/11, minha madrinha *****, CPF: *****, realizou a compra de duas canetas de ins...",
+      "analysis": {
+        "complaint_id": 9,
+        "sentiment": {
+          "sentiment": "Negativo",
+          "sentiment_score": 1.0,
+          "reasoning": "A reclamação aborda a compra de canetas de insulina secas, indicando um produto defeituoso, e a falta de retorno da drogaria, o que configura uma experiência muito negativa."
+        },
+        "classification": {
+          "categories": [
+            "produto",
+            "atendimento"
+          ],
+          "primary_category": "produto",
+          "confidence": 0.95
+        },
+        "entities": {
+          "produto": "Canetas de insulina Novorapid",
+          "loja": "Drogaria Venâncio",
+          "funcionario": null,
+          "outros": [
+            "07/11"
+          ]
+        },
+        "urgency_score": 4.5,
+        "store_type": {
+          "store_type": "physical",
+          "confidence": 0.9,
+          "indicators": [
+            "na drogaria Ve"
+          ]
+        },
+        "tags": {
+          "tags": [
+            "produto-defeituoso",
+            "falta-de-resposta",
+            "medicamento-inutilizavel",
+            "atendimento-pos-venda-ruim"
+          ],
+          "primary_tag": "produto-defeituoso",
+          "specificity_score": 0.8
+        },
+        "status": "completed"
+      }
+    }
+  ],
+  "errors": [
+    {
+      "complaint_id": 10,
+      "error": "Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.30.106:443: tcp handshaker shutdown"
+    },
+    {
+      "complaint_id": 11,
+      "error": "Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.28.202:443: tcp handshaker shutdown"
+    },
+    {
+      "complaint_id": 12,
+      "error": "Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.135.234:443: tcp handshaker shutdown"
+    },
+    {
+      "complaint_id": 13,
+      "error": "Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.28.138:443: tcp handshaker shutdown"
+    },
+    {
+      "complaint_id": 14,
+      "error": "Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.30.42:443: tcp handshaker shutdown"
+    },
+    {
+      "complaint_id": 15,
+      "error": "Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.29.234:443: tcp handshaker shutdown"
+    },
+    {
+      "complaint_id": 16,
+      "error": "Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.133.74:443: tcp handshaker shutdown"
+    },
+    {
+      "complaint_id": 17,
+      "error": "Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.29.234:443: socket is null"
+    },
+    {
+      "complaint_id": 18,
+      "error": "Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.29.202:443: tcp handshaker shutdown"
+    },
+    {
+      "complaint_id": 19,
+      "error": "Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.29.170:443: tcp handshaker shutdown"
+    }
+  ]
+}
