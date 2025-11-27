@@ -22,6 +22,7 @@ class Complaint(Base):
     category = Column(String(200), nullable=True)
     location = Column(String(200), nullable=True)
     external_id = Column(String(100), unique=True, nullable=True, index=True)  # ID do Reclame Aqui
+    url_slug = Column(String(300), nullable=True)  # URL slug do Reclame Aqui (ex: "minha-reclamacao-xyz123")
 
     # Classificação loja física vs online (preenchido por IA)
     store_type = Column(String(50), nullable=True)  # physical, online, unknown
@@ -58,6 +59,81 @@ class Complaint(Base):
 
     def __repr__(self):
         return f"<Complaint {self.id}: {self.title[:50] if self.title else 'N/A'}...>"
+
+
+class Competitor(Base):
+    """Model for competitor pharmacies"""
+    __tablename__ = "competitors"
+
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String(200), nullable=False)
+    slug = Column(String(200), unique=True, nullable=False, index=True)  # reclame aqui slug
+
+    # Metricas do Reclame Aqui
+    reputation = Column(String(50), nullable=True)  # RA1000, Otimo, Bom, Regular, Ruim
+    score = Column(Float, nullable=True)  # Nota 0-10
+    response_rate = Column(Float, nullable=True)  # % de respostas
+    solution_rate = Column(Float, nullable=True)  # % de solucoes
+    would_buy_again = Column(Float, nullable=True)  # % voltaria a fazer negocio
+    avg_response_time_hours = Column(Float, nullable=True)  # Tempo medio de resposta em horas
+    total_complaints = Column(Integer, nullable=True)
+
+    # Metadata
+    last_updated = Column(DateTime, nullable=True)
+    created_at = Column(DateTime, server_default=func.now())
+
+    # Relationships
+    complaints = relationship("CompetitorComplaint", back_populates="competitor")
+
+    def __repr__(self):
+        return f"<Competitor {self.name}: {self.reputation} ({self.score})>"
+
+
+class CompetitorComplaint(Base):
+    """Model for competitor complaints with responses"""
+    __tablename__ = "competitor_complaints"
+
+    id = Column(Integer, primary_key=True, index=True)
+    competitor_id = Column(Integer, ForeignKey('competitors.id'), nullable=False)
+
+    # Dados da reclamacao
+    external_id = Column(String(100), unique=True, nullable=True, index=True)
+    url_slug = Column(String(500), nullable=True)  # URL path for detail page
+    title = Column(String(500))
+    text = Column(Text, nullable=True)
+    complaint_date = Column(DateTime, nullable=True)
+    status = Column(String(100))  # Resolvido, Nao resolvido, etc
+
+    # Resposta da empresa (o que queremos aprender)
+    company_response = Column(Text, nullable=True)
+    response_date = Column(DateTime, nullable=True)
+
+    # Avaliacao do cliente
+    customer_evaluation = Column(Text, nullable=True)
+    customer_score = Column(Float, nullable=True)  # Nota dada pelo cliente
+    would_buy_again = Column(Boolean, nullable=True)
+    was_resolved = Column(Boolean, nullable=True)
+
+    # Analise da resposta (por IA)
+    response_quality_score = Column(Float, nullable=True)  # 0-10
+    response_tone = Column(String(50), nullable=True)  # empatico, neutro, defensivo
+    response_has_solution = Column(Boolean, nullable=True)
+    response_has_apology = Column(Boolean, nullable=True)
+    response_has_compensation = Column(Boolean, nullable=True)
+    response_has_deadline = Column(Boolean, nullable=True)
+
+    # Categoria do problema (para comparar com Venancio)
+    problem_category = Column(String(100), nullable=True)  # atraso-entrega, estorno-pendente, etc
+
+    # Metadata
+    scraped_at = Column(DateTime, server_default=func.now())
+    analyzed_at = Column(DateTime, nullable=True)
+
+    # Relationships
+    competitor = relationship("Competitor", back_populates="complaints")
+
+    def __repr__(self):
+        return f"<CompetitorComplaint {self.competitor.name if self.competitor else 'N/A'}: {self.title[:30] if self.title else 'N/A'}...>"
 
 
 class Coupon(Base):

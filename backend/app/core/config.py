@@ -1,6 +1,12 @@
 from pydantic_settings import BaseSettings
 from typing import Optional
 from pathlib import Path
+from dotenv import load_dotenv
+import os
+
+# Force load .env file before pydantic settings
+_env_path = Path(__file__).parent.parent.parent / ".env"
+load_dotenv(_env_path, override=True)
 
 
 class Settings(BaseSettings):

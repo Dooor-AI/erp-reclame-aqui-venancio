@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
 from app.core.database import engine
 from app.db.base import Base
-from app.api.endpoints import complaints, analytics, responses
+from app.api.endpoints import complaints, analytics, responses, benchmark
 from app.scraper.scheduler import start_scheduler, stop_scheduler, run_now
 import logging
 
@@ -86,3 +86,4 @@ async def run_scraper_manually(background_tasks: BackgroundTasks):
 app.include_router(complaints.router)
 app.include_router(analytics.router)
 app.include_router(responses.router)
+app.include_router(benchmark.router)

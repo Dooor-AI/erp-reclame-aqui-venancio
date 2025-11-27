@@ -12,6 +12,9 @@ export function Header() {
           <Link href="/reclamacoes" className="text-sm hover:underline">
             Reclamações
           </Link>
+          <Link href="/benchmark" className="text-sm hover:underline">
+            Benchmark
+          </Link>
         </nav>
       </div>
     </header>

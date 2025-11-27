@@ -9,27 +9,52 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-SMART_TAG_PROMPT = """Analise a reclamação e gere TAGS ESPECÍFICAS que descrevam o problema.
+# Tags padronizadas - conjunto fixo de 12 tags
+ALLOWED_TAGS = [
+    "atraso-entrega",        # Pedidos que atrasaram
+    "pedido-nao-entregue",   # Pedido nunca chegou
+    "estorno-pendente",      # Aguardando reembolso/estorno
+    "produto-avariado",      # Produto danificado, quebrado, vencido
+    "atendimento-ruim",      # Mau atendimento, falta de resposta
+    "produto-indisponivel",  # Produto fora de estoque após compra
+    "cobranca-indevida",     # Cobrado errado, duplicado
+    "erro-sistema",          # Problemas no site/app
+    "cancelamento-problematico",  # Dificuldade para cancelar
+    "troca-recusada",        # Empresa não aceita troca/devolução
+    "pedido-incompleto",     # Faltou item no pedido
+    "problema-receita",      # Problemas com receita médica
+]
 
-REGRAS IMPORTANTES:
-1. Evite tags muito genéricas como "problema", "reclamação", "insatisfação"
-2. Evite tags muito específicas demais (ex: números de pedido, nomes próprios)
-3. Foque em tags de média especificidade que ajudem a identificar padrões
+SMART_TAG_PROMPT = f"""Analise a reclamação e classifique usando APENAS as tags da lista abaixo.
 
-EXEMPLOS DE BOAS TAGS:
-- "produto-defeituoso", "prazo-estourado", "cobrança-indevida"
-- "atendente-rude", "troca-recusada", "reembolso-pendente"
-- "embalagem-danificada", "produto-errado", "falta-resposta"
-- "propaganda-enganosa", "garantia-negada", "cupom-invalido"
+TAGS PERMITIDAS (escolha de 1 a 3 tags mais relevantes):
+{chr(10).join(f'- {tag}' for tag in ALLOWED_TAGS)}
 
-Retorne de 2 a 5 tags relevantes em formato JSON:
-{
-  "tags": ["tag1", "tag2", "tag3"],
-  "primary_tag": "tag_principal",
-  "specificity_score": 0.0 a 1.0
-}
+REGRAS:
+1. Use SOMENTE tags da lista acima
+2. Escolha a tag que MELHOR representa o problema principal como "primary_tag"
+3. Adicione 1-2 tags secundárias se aplicável
+4. NÃO invente novas tags
 
-Use hífen para separar palavras nas tags. Sem acentos."""
+DESCRIÇÃO DAS TAGS:
+- atraso-entrega: Pedido atrasou mas ainda não foi entregue ou demorou muito
+- pedido-nao-entregue: Pedido nunca chegou, extraviado
+- estorno-pendente: Cliente aguarda reembolso ou estorno no cartão
+- produto-avariado: Produto chegou danificado, quebrado, vencido ou estragado
+- atendimento-ruim: Atendente grosseiro, sem resposta, descaso
+- produto-indisponivel: Comprou mas produto estava fora de estoque
+- cobranca-indevida: Cobrança errada, duplicada, preço diferente
+- erro-sistema: Bug no site, app não funciona, erro no checkout
+- cancelamento-problematico: Dificuldade para cancelar pedido
+- troca-recusada: Empresa não aceita troca ou devolução
+- pedido-incompleto: Faltou item, quantidade errada
+- problema-receita: Problemas com receita médica, medicamento controlado
+
+Retorne em formato JSON:
+{{
+  "tags": ["tag1", "tag2"],
+  "primary_tag": "tag_principal"
+}}"""
 
 
 class SmartTagger:
@@ -40,7 +65,7 @@ class SmartTagger:
 
     async def generate_tags(self, text: str, title: str = "") -> Dict[str, any]:
         """
-        Generate smart tags for a complaint
+        Generate smart tags for a complaint using fixed tag set
 
         Args:
             text: Complaint text
@@ -48,9 +73,8 @@ class SmartTagger:
 
         Returns:
             Dict with:
-                - tags: List of 2-5 tags
-                - primary_tag: Main tag
-                - specificity_score: 0-1 (0.5 is ideal middle distribution)
+                - tags: List of 1-3 tags from ALLOWED_TAGS
+                - primary_tag: Main tag from ALLOWED_TAGS
         """
         try:
             # Combine title and text for better context
@@ -60,20 +84,31 @@ class SmartTagger:
             result = json.loads(response)
 
             tags = result.get('tags', [])
-            # Normalize tags: lowercase, no accents, hyphenated
-            normalized_tags = [self._normalize_tag(tag) for tag in tags]
+            # Normalize and validate tags against allowed list
+            normalized_tags = []
+            for tag in tags:
+                norm_tag = self._normalize_tag(tag)
+                if norm_tag in ALLOWED_TAGS:
+                    normalized_tags.append(norm_tag)
+
+            # Get primary tag
+            primary = self._normalize_tag(result.get('primary_tag', ''))
+            if primary not in ALLOWED_TAGS:
+                primary = normalized_tags[0] if normalized_tags else 'atendimento-ruim'
+
+            # Ensure we have at least one tag
+            if not normalized_tags:
+                normalized_tags = [primary]
 
             return {
-                'tags': normalized_tags[:5],  # Max 5 tags
-                'primary_tag': self._normalize_tag(result.get('primary_tag', tags[0] if tags else '')),
-                'specificity_score': float(result.get('specificity_score', 0.5))
+                'tags': normalized_tags[:3],  # Max 3 tags
+                'primary_tag': primary
             }
         except json.JSONDecodeError as e:
             logger.error(f"Error parsing JSON: {e}\nResponse: {response}")
             return {
-                'tags': ['sem-classificacao'],
-                'primary_tag': 'sem-classificacao',
-                'specificity_score': 0.0
+                'tags': ['atendimento-ruim'],
+                'primary_tag': 'atendimento-ruim'
             }
         except Exception as e:
             logger.error(f"Error generating tags: {e}")
